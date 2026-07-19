@@ -11,7 +11,7 @@ body
 {
     display:grid;
 
-    grid-template-columns:220px 1fr 220px;
+    grid-template-columns:180px 1fr 180px;
 
     height:100vh;
 }
@@ -43,9 +43,9 @@ body
 
     position:relative;
 
-    width:707px;
+    width:min(707px, 100vw);
 
-    height:1204px;
+    aspect-ratio:707 / 1204;
 
 }
 
@@ -56,8 +56,8 @@ body
     left:0;
     top:0;
 
-    width:707px;
-    height:1204px;
+    width:100%;
+    height:100%;
 
     pointer-events:none;
 
@@ -85,4 +85,46 @@ body
     display: block;
     width: 100%;
     margin-bottom: 5px;
+}
+
+/* ---------- Tablets ---------- */
+
+@media (max-width: 1000px)
+{
+
+    #app
+    {
+        grid-template-columns:140px 1fr 140px;
+    }
+
+}
+
+
+/* ---------- Phones ---------- */
+
+@media (max-width: 700px)
+{
+
+    #app
+    {
+        grid-template-columns:1fr;
+
+        grid-template-rows:auto 1fr auto;
+    }
+
+    #leftPanel
+    {
+        order:1;
+    }
+
+    #stageContainer
+    {
+        order:2;
+    }
+
+    #rightPanel
+    {
+        order:3;
+    }
+
 }
