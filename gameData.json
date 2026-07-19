@@ -1,0 +1,2850 @@
+{
+  "collections": {
+    "1": {
+      "id": 1,
+      "name": "London",
+      "year": 1972,
+      "special": false,
+      "outfits": [
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1018
+      ]
+    },
+    "2": {
+      "id": 2,
+      "name": "Monaco",
+      "year": 1976,
+      "special": false,
+      "outfits": [
+        1019,
+        1020,
+        1021,
+        1022,
+        1023,
+        1024
+      ]
+    },
+    "3": {
+      "id": 3,
+      "name": "Madrid",
+      "year": 1974,
+      "special": false,
+      "outfits": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006
+      ]
+    },
+    "4": {
+      "id": 4,
+      "name": "Park Lane",
+      "year": 1980,
+      "special": false,
+      "outfits": [
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1030
+      ]
+    },
+    "5": {
+      "id": 5,
+      "name": "Oriental",
+      "year": 1977,
+      "special": false,
+      "outfits": [
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036
+      ]
+    },
+    "6": {
+      "id": 6,
+      "name": "King's Road",
+      "year": 1978,
+      "special": false,
+      "outfits": [
+        1037,
+        1038,
+        1039,
+        1040,
+        1041,
+        1042
+      ]
+    },
+    "7": {
+      "id": 7,
+      "name": "Holiday",
+      "year": 1978,
+      "special": false,
+      "outfits": [
+        1043,
+        1044,
+        1045,
+        1046,
+        1047,
+        1048
+      ]
+    },
+    "8": {
+      "id": 8,
+      "name": "Geneva",
+      "year": 1973,
+      "special": false,
+      "outfits": [
+        1049,
+        1050,
+        1051,
+        1052,
+        1053,
+        1054
+      ]
+    },
+    "9": {
+      "id": 9,
+      "name": "Athens",
+      "year": 1976,
+      "special": false,
+      "outfits": [
+        1055,
+        1056,
+        1057,
+        1058,
+        1059,
+        1060
+      ]
+    },
+    "10": {
+      "id": 10,
+      "name": "Amsterdam",
+      "year": 1976,
+      "special": false,
+      "outfits": [
+        1061,
+        1062,
+        1063,
+        1064,
+        1065,
+        1066
+      ]
+    },
+    "11": {
+      "id": 11,
+      "name": "Paris 2",
+      "year": 1975,
+      "special": false,
+      "outfits": [
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012
+      ]
+    },
+    "12": {
+      "id": 12,
+      "name": "Paris 1",
+      "year": 1972,
+      "special": false,
+      "outfits": [
+        1075,
+        1076,
+        1077,
+        1078,
+        1079,
+        1080
+      ]
+    },
+    "13": {
+      "id": 13,
+      "name": "New York",
+      "year": 1973,
+      "special": false,
+      "outfits": [
+        1091,
+        1092,
+        1093,
+        1094,
+        1095,
+        1096
+      ]
+    },
+    "14": {
+      "id": 14,
+      "name": "Riviera",
+      "year": 1980,
+      "special": false,
+      "outfits": [
+        1097,
+        1098,
+        1099,
+        1100,
+        1101,
+        1102
+      ]
+    },
+    "15": {
+      "id": 15,
+      "name": "Boutique",
+      "year": 1975,
+      "special": false,
+      "outfits": [
+        1103,
+        1104,
+        1105,
+        1106,
+        1107
+      ]
+    },
+    "16": {
+      "id": 16,
+      "name": "Career Girl",
+      "year": 1975,
+      "special": false,
+      "outfits": [
+        1108,
+        1109,
+        1110
+      ]
+    },
+    "17": {
+      "id": 17,
+      "name": "Disco Fan",
+      "year": 1975,
+      "special": false,
+      "outfits": [
+        1111,
+        1112,
+        1113
+      ]
+    },
+    "18": {
+      "id": 18,
+      "name": "Vienna",
+      "year": 1974,
+      "special": false,
+      "outfits": [
+        1089,
+        1114,
+        1115,
+        1116,
+        1117,
+        1118
+      ]
+    },
+    "19": {
+      "id": 19,
+      "name": "Trouser",
+      "year": 1976,
+      "special": false,
+      "outfits": [
+        1119,
+        1120,
+        1121,
+        1122,
+        1123,
+        1124
+      ]
+    },
+    "20": {
+      "id": 20,
+      "name": "Rome",
+      "year": 1972,
+      "special": false,
+      "outfits": [
+        1067,
+        1068,
+        1069,
+        1070,
+        1071,
+        1072
+      ]
+    },
+    "21": {
+      "id": 21,
+      "name": "Rio",
+      "year": 1974,
+      "special": false,
+      "outfits": [
+        1083,
+        1084,
+        1085,
+        1086,
+        1087,
+        1088
+      ]
+    },
+    "23": {
+      "id": 23,
+      "name": "Movie Star",
+      "year": 1977,
+      "special": false,
+      "outfits": [
+        1125,
+        1126,
+        1127,
+        1128,
+        1129,
+        1130
+      ]
+    },
+    "24": {
+      "id": 24,
+      "name": "Monte Carlo",
+      "year": 1976,
+      "special": false,
+      "outfits": [
+        1131,
+        1132,
+        1133,
+        1134,
+        1135,
+        1136
+      ]
+    },
+    "25": {
+      "id": 25,
+      "name": "Scenery",
+      "year": 2021,
+      "special": true,
+      "outfits": [
+        1073
+      ]
+    },
+    "26": {
+      "id": 26,
+      "name": "Frames",
+      "year": 2021,
+      "special": true,
+      "outfits": [
+        1074
+      ]
+    },
+    "27": {
+      "id": 27,
+      "name": "Doll Outfits",
+      "year": null,
+      "special": false,
+      "outfits": [
+        1137,
+        1138,
+        1139,
+        1140,
+        1141,
+        1142,
+        1143,
+        1144,
+        1145
+      ]
+    },
+    "28": {
+      "id": 28,
+      "name": "Single Outfits",
+      "year": null,
+      "special": false,
+      "outfits": [
+        1090
+      ]
+    }
+  },
+  "outfits": {
+    "1001": {
+      "id": 1001,
+      "name": "Guitar Girl",
+      "collection": 3,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5022,
+        5023,
+        5005,
+        5064
+      ]
+    },
+    "1002": {
+      "id": 1002,
+      "name": "Lacy Luxury",
+      "collection": 3,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5024,
+        5025,
+        5004,
+        5026
+      ]
+    },
+    "1003": {
+      "id": 1003,
+      "name": "Trowser Wowser",
+      "collection": 3,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5027,
+        5028,
+        5002
+      ]
+    },
+    "1004": {
+      "id": 1004,
+      "name": "A Walk In The Park",
+      "collection": 3,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5029,
+        5026,
+        5015
+      ]
+    },
+    "1005": {
+      "id": 1005,
+      "name": "Purple Delight",
+      "collection": 3,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5030,
+        5011
+      ]
+    },
+    "1006": {
+      "id": 1006,
+      "name": "Chocolate Orange",
+      "collection": 3,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5031,
+        5033,
+        5032,
+        5026
+      ]
+    },
+    "1007": {
+      "id": 1007,
+      "name": "Montmatre",
+      "collection": 11,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5072,
+        5073
+      ]
+    },
+    "1008": {
+      "id": 1008,
+      "name": "Fontainebleau",
+      "collection": 11,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5046,
+        5047,
+        5068,
+        5069
+      ]
+    },
+    "1009": {
+      "id": 1009,
+      "name": "Metro",
+      "collection": 11,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": []
+    },
+    "1010": {
+      "id": 1010,
+      "name": "Pigalle",
+      "collection": 11,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": []
+    },
+    "1011": {
+      "id": 1011,
+      "name": "Indian Summer",
+      "collection": 11,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5021,
+        5043,
+        5021,
+        5044,
+        5071
+      ]
+    },
+    "1012": {
+      "id": 1012,
+      "name": "Champs-Élysées",
+      "collection": 11,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5021,
+        5045,
+        5021,
+        5070
+      ]
+    },
+    "1013": {
+      "id": 1013,
+      "name": "Evening Special",
+      "collection": 1,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5003,
+        5004,
+        5005
+      ]
+    },
+    "1014": {
+      "id": 1014,
+      "name": "Midi Maid",
+      "collection": 1,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5001,
+        5006,
+        5007,
+        5008
+      ]
+    },
+    "1015": {
+      "id": 1015,
+      "name": "Disco Dolly",
+      "collection": 1,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5009,
+        5010,
+        5011,
+        5012
+      ]
+    },
+    "1016": {
+      "id": 1016,
+      "name": "Walk in the Park",
+      "collection": 1,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5013,
+        5002,
+        5014
+      ]
+    },
+    "1017": {
+      "id": 1017,
+      "name": "Bowling Beauty",
+      "collection": 1,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5016,
+        5017,
+        5002,
+        5018
+      ]
+    },
+    "1018": {
+      "id": 1018,
+      "name": "Winter Sunday",
+      "collection": 1,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5019,
+        5020
+      ]
+    },
+    "1019": {
+      "id": 1019,
+      "name": "Monaco 1",
+      "collection": 2,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1020": {
+      "id": 1020,
+      "name": "Monaco 2",
+      "collection": 2,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1021": {
+      "id": 1021,
+      "name": "Monaco 3",
+      "collection": 2,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1022": {
+      "id": 1022,
+      "name": "Monaco 4",
+      "collection": 2,
+      "description": "Blue & White. Trousers & hoodie with pompoms.",
+      "year": null,
+      "free": false,
+      "articles": [
+        5001
+      ]
+    },
+    "1023": {
+      "id": 1023,
+      "name": "Monaco 5",
+      "collection": 2,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1024": {
+      "id": 1024,
+      "name": "Monaco 6",
+      "collection": 2,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1025": {
+      "id": 1025,
+      "name": "Park Lane 1",
+      "collection": 4,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1026": {
+      "id": 1026,
+      "name": "Park Lane 2",
+      "collection": 4,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1027": {
+      "id": 1027,
+      "name": "Park Lane 3",
+      "collection": 4,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1028": {
+      "id": 1028,
+      "name": "Park Lane 4",
+      "collection": 4,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1029": {
+      "id": 1029,
+      "name": "Park Lane 5",
+      "collection": 4,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1030": {
+      "id": 1030,
+      "name": "Park Lane 6",
+      "collection": 4,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1031": {
+      "id": 1031,
+      "name": "Oriental 1",
+      "collection": 5,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1032": {
+      "id": 1032,
+      "name": "Oriental 2",
+      "collection": 5,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1033": {
+      "id": 1033,
+      "name": "Oriental 3",
+      "collection": 5,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1034": {
+      "id": 1034,
+      "name": "Oriental 4",
+      "collection": 5,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1035": {
+      "id": 1035,
+      "name": "Oriental 5",
+      "collection": 5,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1036": {
+      "id": 1036,
+      "name": "Oriental 6",
+      "collection": 5,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1037": {
+      "id": 1037,
+      "name": "King's Road 1",
+      "collection": 6,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5075,
+        5074
+      ]
+    },
+    "1038": {
+      "id": 1038,
+      "name": "King's Road 2",
+      "collection": 6,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": []
+    },
+    "1039": {
+      "id": 1039,
+      "name": "King's Road 3",
+      "collection": 6,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": []
+    },
+    "1040": {
+      "id": 1040,
+      "name": "King's Road 4",
+      "collection": 6,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": []
+    },
+    "1041": {
+      "id": 1041,
+      "name": "King's Road 5",
+      "collection": 6,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5076,
+        5077,
+        5002,
+        5078
+      ]
+    },
+    "1042": {
+      "id": 1042,
+      "name": "King's Road 6",
+      "collection": 6,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": []
+    },
+    "1043": {
+      "id": 1043,
+      "name": "Holiday 1",
+      "collection": 7,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1044": {
+      "id": 1044,
+      "name": "Holiday 2",
+      "collection": 7,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1045": {
+      "id": 1045,
+      "name": "Holiday 3",
+      "collection": 7,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1046": {
+      "id": 1046,
+      "name": "Holiday 4",
+      "collection": 7,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1047": {
+      "id": 1047,
+      "name": "Holiday 5",
+      "collection": 7,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1048": {
+      "id": 1048,
+      "name": "Holiday 6",
+      "collection": 7,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1049": {
+      "id": 1049,
+      "name": "Fringes",
+      "collection": 8,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": []
+    },
+    "1050": {
+      "id": 1050,
+      "name": "Record Time",
+      "collection": 8,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": []
+    },
+    "1051": {
+      "id": 1051,
+      "name": "Orange Blossom",
+      "collection": 8,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": []
+    },
+    "1052": {
+      "id": 1052,
+      "name": "Go Go Green",
+      "collection": 8,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5036,
+        5037,
+        5038
+      ]
+    },
+    "1053": {
+      "id": 1053,
+      "name": "Checkmate",
+      "collection": 8,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": []
+    },
+    "1054": {
+      "id": 1054,
+      "name": "Midnight Velvet",
+      "collection": 8,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": []
+    },
+    "1055": {
+      "id": 1055,
+      "name": "Fun Fur",
+      "collection": 9,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1056": {
+      "id": 1056,
+      "name": "Daisy Belle",
+      "collection": 9,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1057": {
+      "id": 1057,
+      "name": "Dial-A-Date",
+      "collection": 9,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1058": {
+      "id": 1058,
+      "name": "1st Date",
+      "collection": 9,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1059": {
+      "id": 1059,
+      "name": "Sweet Dreams",
+      "collection": 9,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1060": {
+      "id": 1060,
+      "name": "Autumn Suit",
+      "collection": 9,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1061": {
+      "id": 1061,
+      "name": "Tulip Girl",
+      "collection": 10,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1062": {
+      "id": 1062,
+      "name": "Vondel Park",
+      "collection": 10,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1063": {
+      "id": 1063,
+      "name": "Damsquare Idler",
+      "collection": 10,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1064": {
+      "id": 1064,
+      "name": "Sparkling Diamonds",
+      "collection": 10,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1065": {
+      "id": 1065,
+      "name": "Leidse Plein",
+      "collection": 10,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1066": {
+      "id": 1066,
+      "name": "Kalverstraat",
+      "collection": 10,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1067": {
+      "id": 1067,
+      "name": "Late Night Special",
+      "collection": 20,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1068": {
+      "id": 1068,
+      "name": "Orange Saturday",
+      "collection": 20,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1069": {
+      "id": 1069,
+      "name": "Two for One",
+      "collection": 20,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1070": {
+      "id": 1070,
+      "name": "Saturday Shopper",
+      "collection": 20,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1071": {
+      "id": 1071,
+      "name": "Queen of Hearts",
+      "collection": 20,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": [
+        5001,
+        5061,
+        5062,
+        5063
+      ]
+    },
+    "1072": {
+      "id": 1072,
+      "name": "Flamenco",
+      "collection": 20,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1073": {
+      "id": 1073,
+      "name": "Scenery",
+      "collection": 25,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5034,
+        5041,
+        5042,
+        5035,
+        5051
+      ]
+    },
+    "1074": {
+      "id": 1074,
+      "name": "Frames",
+      "collection": 26,
+      "description": null,
+      "year": null,
+      "free": true,
+      "articles": [
+        5049,
+        5050
+      ]
+    },
+    "1075": {
+      "id": 1075,
+      "name": "Denim Delight",
+      "collection": 12,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": [
+        5039,
+        5040,
+        5002,
+        5064
+      ]
+    },
+    "1076": {
+      "id": 1076,
+      "name": "Flower Girl",
+      "collection": 12,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1077": {
+      "id": 1077,
+      "name": "Lounge Suit",
+      "collection": 12,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1078": {
+      "id": 1078,
+      "name": "Sterling Silver",
+      "collection": 12,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1079": {
+      "id": 1079,
+      "name": "Rainy Day",
+      "collection": 12,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1080": {
+      "id": 1080,
+      "name": "Leisure Set",
+      "collection": 12,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1083": {
+      "id": 1083,
+      "name": "Hats Off",
+      "collection": 21,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": [
+        5048,
+        5011
+      ]
+    },
+    "1084": {
+      "id": 1084,
+      "name": "Glimmering Stardust",
+      "collection": 21,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1085": {
+      "id": 1085,
+      "name": "Snow Princess",
+      "collection": 21,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1086": {
+      "id": 1086,
+      "name": "Swinging Strings",
+      "collection": 21,
+      "description": "Variations",
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1087": {
+      "id": 1087,
+      "name": "Candy Cutie",
+      "collection": 21,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1088": {
+      "id": 1088,
+      "name": "Rio 6",
+      "collection": 21,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1089": {
+      "id": 1089,
+      "name": "Daisy Chain",
+      "collection": 18,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": [
+        5052,
+        5011
+      ]
+    },
+    "1090": {
+      "id": 1090,
+      "name": "Tally Ho",
+      "collection": 28,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": [
+        5021,
+        5053,
+        5054,
+        5055
+      ]
+    },
+    "1091": {
+      "id": 1091,
+      "name": "Happy Wanderer",
+      "collection": 13,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1092": {
+      "id": 1092,
+      "name": "Leather Look",
+      "collection": 13,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1093": {
+      "id": 1093,
+      "name": "Swing Along",
+      "collection": 13,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1094": {
+      "id": 1094,
+      "name": "Hot Pants",
+      "collection": 13,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1095": {
+      "id": 1095,
+      "name": "New York 5",
+      "collection": 13,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1096": {
+      "id": 1096,
+      "name": "New York 6",
+      "collection": 13,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1097": {
+      "id": 1097,
+      "name": "Riviera 1",
+      "collection": 14,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1098": {
+      "id": 1098,
+      "name": "Riviera 2",
+      "collection": 14,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1099": {
+      "id": 1099,
+      "name": "Riviera 3",
+      "collection": 14,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1100": {
+      "id": 1100,
+      "name": "Riviera 4",
+      "collection": 14,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1101": {
+      "id": 1101,
+      "name": "Riviera 5",
+      "collection": 14,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1102": {
+      "id": 1102,
+      "name": "Riviera 6",
+      "collection": 14,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1103": {
+      "id": 1103,
+      "name": "Boutique 1",
+      "collection": 15,
+      "description": "Duck top & Jeans",
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1104": {
+      "id": 1104,
+      "name": "Boutique 2",
+      "collection": 15,
+      "description": "Spotty Towel Robe",
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1105": {
+      "id": 1105,
+      "name": "Boutique 3",
+      "collection": 15,
+      "description": "Bikini",
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1106": {
+      "id": 1106,
+      "name": "Boutique 4",
+      "collection": 15,
+      "description": "Blue Long Dress with Lace",
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1107": {
+      "id": 1107,
+      "name": "Boutique 5",
+      "collection": 15,
+      "description": "Tartan Short Dress",
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1108": {
+      "id": 1108,
+      "name": "Air Hostess",
+      "collection": 16,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1109": {
+      "id": 1109,
+      "name": "Secretary",
+      "collection": 16,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1110": {
+      "id": 1110,
+      "name": "Nurse",
+      "collection": 16,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1111": {
+      "id": 1111,
+      "name": "Disco Fan 1",
+      "collection": 17,
+      "description": "Orange Dress",
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1112": {
+      "id": 1112,
+      "name": "Disco Fan 2",
+      "collection": 17,
+      "description": "Floral Trouser Suit",
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1113": {
+      "id": 1113,
+      "name": "Disco Fan 3",
+      "collection": 17,
+      "description": "Stripy Trouser Suit",
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1114": {
+      "id": 1114,
+      "name": "Pink Champagne",
+      "collection": 18,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1115": {
+      "id": 1115,
+      "name": "Hello Dolly",
+      "collection": 18,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1116": {
+      "id": 1116,
+      "name": "Lovely Lace",
+      "collection": 18,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1117": {
+      "id": 1117,
+      "name": "In The Pink",
+      "collection": 18,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1118": {
+      "id": 1118,
+      "name": "Vienna 6",
+      "collection": 18,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1119": {
+      "id": 1119,
+      "name": "Trouser Set 1",
+      "collection": 19,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1120": {
+      "id": 1120,
+      "name": "Trouser Set 2",
+      "collection": 19,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1121": {
+      "id": 1121,
+      "name": "Trouser Set 3",
+      "collection": 19,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1122": {
+      "id": 1122,
+      "name": "Trouser Set 4",
+      "collection": 19,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1123": {
+      "id": 1123,
+      "name": "Trouser Set 5",
+      "collection": 19,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1124": {
+      "id": 1124,
+      "name": "Trouser Set 6",
+      "collection": 19,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1125": {
+      "id": 1125,
+      "name": "Movie Star 1",
+      "collection": 23,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1126": {
+      "id": 1126,
+      "name": "Movie Star 2",
+      "collection": 23,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1127": {
+      "id": 1127,
+      "name": "Movie Star 3",
+      "collection": 23,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1128": {
+      "id": 1128,
+      "name": "Movie Star 4",
+      "collection": 23,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1129": {
+      "id": 1129,
+      "name": "Movie Star 5",
+      "collection": 23,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1130": {
+      "id": 1130,
+      "name": "Movie Star 6",
+      "collection": 23,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1131": {
+      "id": 1131,
+      "name": "Monte Carlo 1",
+      "collection": 24,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1132": {
+      "id": 1132,
+      "name": "Monte Carlo 2",
+      "collection": 24,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1133": {
+      "id": 1133,
+      "name": "Monte Carlo 3",
+      "collection": 24,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1134": {
+      "id": 1134,
+      "name": "Monte Carlo 4",
+      "collection": 24,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1135": {
+      "id": 1135,
+      "name": "Monte Carlo 5",
+      "collection": 24,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1136": {
+      "id": 1136,
+      "name": "Monte Carlo 6",
+      "collection": 24,
+      "description": null,
+      "year": null,
+      "free": false,
+      "articles": []
+    },
+    "1137": {
+      "id": 1137,
+      "name": "Pippa 1st Issue",
+      "collection": 27,
+      "description": null,
+      "year": 1972,
+      "free": true,
+      "articles": [
+        5056,
+        5057,
+        5002
+      ]
+    },
+    "1138": {
+      "id": 1138,
+      "name": "Britt 1st Issue",
+      "collection": 27,
+      "description": null,
+      "year": 1973,
+      "free": true,
+      "articles": [
+        5058,
+        5059,
+        5060,
+        5067
+      ]
+    },
+    "1139": {
+      "id": 1139,
+      "name": "Tammie 1st Issue",
+      "collection": 27,
+      "description": null,
+      "year": 1972,
+      "free": true,
+      "articles": []
+    },
+    "1140": {
+      "id": 1140,
+      "name": "Penny 1st Issue",
+      "collection": 27,
+      "description": null,
+      "year": 1977,
+      "free": false,
+      "articles": []
+    },
+    "1141": {
+      "id": 1141,
+      "name": "Emma",
+      "collection": 27,
+      "description": null,
+      "year": 1973,
+      "free": true,
+      "articles": []
+    },
+    "1142": {
+      "id": 1142,
+      "name": "Jasmine",
+      "collection": 27,
+      "description": null,
+      "year": 1977,
+      "free": false,
+      "articles": []
+    },
+    "1143": {
+      "id": 1143,
+      "name": "Gail",
+      "collection": 27,
+      "description": null,
+      "year": 1977,
+      "free": false,
+      "articles": []
+    },
+    "1144": {
+      "id": 1144,
+      "name": "Mandy 1st Issue",
+      "collection": 27,
+      "description": null,
+      "year": 1976,
+      "free": false,
+      "articles": []
+    },
+    "1145": {
+      "id": 1145,
+      "name": "Marie 1st Issue",
+      "collection": 27,
+      "description": null,
+      "year": 1972,
+      "free": false,
+      "articles": [
+        5065,
+        5002,
+        5066
+      ]
+    }
+  },
+  "articles": {
+    "5001": {
+      "id": 5001,
+      "name": "White Boots",
+      "category": 6,
+      "background": "thumbfill",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1014,
+        1022,
+        1071
+      ]
+    },
+    "5002": {
+      "id": 5002,
+      "name": "Blue Shoes",
+      "category": 6,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1017,
+        1016,
+        1003,
+        1075,
+        1137,
+        1145,
+        1041
+      ]
+    },
+    "5003": {
+      "id": 5003,
+      "name": "Yellow Dress",
+      "category": 1,
+      "background": "fill",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1013
+      ]
+    },
+    "5004": {
+      "id": 5004,
+      "name": "Gold Clutch Bag",
+      "category": 8,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1013,
+        1002
+      ]
+    },
+    "5005": {
+      "id": 5005,
+      "name": "Pale Yellow Shoes",
+      "category": 6,
+      "background": "thumbfill",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1013,
+        1001
+      ]
+    },
+    "5006": {
+      "id": 5006,
+      "name": "Floral Skirt",
+      "category": 2,
+      "background": "",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1014
+      ]
+    },
+    "5007": {
+      "id": 5007,
+      "name": "White Top",
+      "category": 3,
+      "background": "fill",
+      "subtype": null,
+      "position": "top_in",
+      "outfits": [
+        1014
+      ]
+    },
+    "5008": {
+      "id": 5008,
+      "name": "Floral Waistcoat",
+      "category": 4,
+      "background": "fill",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1014
+      ]
+    },
+    "5009": {
+      "id": 5009,
+      "name": "Red Dress",
+      "category": 1,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1015
+      ]
+    },
+    "5010": {
+      "id": 5010,
+      "name": "White Top",
+      "category": 3,
+      "background": "fill",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1015
+      ]
+    },
+    "5011": {
+      "id": 5011,
+      "name": "White Shoes",
+      "category": 6,
+      "background": "thumbfill",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1015,
+        1005,
+        1083,
+        1089
+      ]
+    },
+    "5012": {
+      "id": 5012,
+      "name": "Record Player",
+      "category": 8,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1015
+      ]
+    },
+    "5013": {
+      "id": 5013,
+      "name": "Blue Spotty Dress",
+      "category": 1,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1016
+      ]
+    },
+    "5014": {
+      "id": 5014,
+      "name": "Black & White Poodles",
+      "category": 8,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1016
+      ]
+    },
+    "5015": {
+      "id": 5015,
+      "name": "White Poodle",
+      "category": 8,
+      "background": "thumb",
+      "subtype": null,
+      "position": "",
+      "outfits": [
+        1004
+      ]
+    },
+    "5016": {
+      "id": 5016,
+      "name": "Swirly Top",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1017
+      ]
+    },
+    "5017": {
+      "id": 5017,
+      "name": "Swirly Trousers",
+      "category": 5,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1017
+      ]
+    },
+    "5018": {
+      "id": 5018,
+      "name": "Bowling Ball & Skittles",
+      "category": 8,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1017
+      ]
+    },
+    "5019": {
+      "id": 5019,
+      "name": "Red Coat",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1018
+      ]
+    },
+    "5020": {
+      "id": 5020,
+      "name": "Red Boots",
+      "category": 6,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1018
+      ]
+    },
+    "5021": {
+      "id": 5021,
+      "name": "Black Boots",
+      "category": 6,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1011,
+        1012,
+        1011,
+        1012,
+        1090
+      ]
+    },
+    "5022": {
+      "id": 5022,
+      "name": "Floral Trousers",
+      "category": 5,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1001
+      ]
+    },
+    "5023": {
+      "id": 5023,
+      "name": "Floral and Yellow Top",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1001
+      ]
+    },
+    "5024": {
+      "id": 5024,
+      "name": "Lacy Orange Top",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1002
+      ]
+    },
+    "5025": {
+      "id": 5025,
+      "name": "Brown Floral Skirt",
+      "category": 2,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1002
+      ]
+    },
+    "5026": {
+      "id": 5026,
+      "name": "Orange Shoes",
+      "category": 6,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1002,
+        1004,
+        1006
+      ]
+    },
+    "5027": {
+      "id": 5027,
+      "name": "Blue & Pink Floral  Top",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1003
+      ]
+    },
+    "5028": {
+      "id": 5028,
+      "name": "Blue Trousers",
+      "category": 5,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1003
+      ]
+    },
+    "5029": {
+      "id": 5029,
+      "name": "Brown &  Orange Floral Dress",
+      "category": 1,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1004
+      ]
+    },
+    "5030": {
+      "id": 5030,
+      "name": "Purple & Pink Floral Dress",
+      "category": 1,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1005
+      ]
+    },
+    "5031": {
+      "id": 5031,
+      "name": "Brown Jacket & Belt",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1006
+      ]
+    },
+    "5032": {
+      "id": 5032,
+      "name": "Brown Skirt",
+      "category": 2,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1006
+      ]
+    },
+    "5033": {
+      "id": 5033,
+      "name": "Orange Bow Top",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1006
+      ]
+    },
+    "5034": {
+      "id": 5034,
+      "name": "London",
+      "category": 9,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1073
+      ]
+    },
+    "5035": {
+      "id": 5035,
+      "name": "Paris",
+      "category": 9,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1073
+      ]
+    },
+    "5036": {
+      "id": 5036,
+      "name": "Green Floral Skirt",
+      "category": 2,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1052
+      ]
+    },
+    "5037": {
+      "id": 5037,
+      "name": "Green Top",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1052
+      ]
+    },
+    "5038": {
+      "id": 5038,
+      "name": "Green Boots",
+      "category": 6,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1052
+      ]
+    },
+    "5039": {
+      "id": 5039,
+      "name": "Denim Trousers",
+      "category": 5,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1075
+      ]
+    },
+    "5040": {
+      "id": 5040,
+      "name": "Denim Jacket",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1075
+      ]
+    },
+    "5041": {
+      "id": 5041,
+      "name": "Showjumping",
+      "category": 9,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1073
+      ]
+    },
+    "5042": {
+      "id": 5042,
+      "name": "Swirly",
+      "category": 9,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1073
+      ]
+    },
+    "5043": {
+      "id": 5043,
+      "name": "Snakeskin Coat",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1011
+      ]
+    },
+    "5044": {
+      "id": 5044,
+      "name": "White Hat",
+      "category": 7,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1011
+      ]
+    },
+    "5045": {
+      "id": 5045,
+      "name": "Biege Raincoat",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1012
+      ]
+    },
+    "5046": {
+      "id": 5046,
+      "name": "Green Trousers",
+      "category": 5,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1008
+      ]
+    },
+    "5047": {
+      "id": 5047,
+      "name": "Green Shoes",
+      "category": 6,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1008
+      ]
+    },
+    "5048": {
+      "id": 5048,
+      "name": "Green Mini Dress",
+      "category": 1,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1083
+      ]
+    },
+    "5049": {
+      "id": 5049,
+      "name": "Pippa Box",
+      "category": 10,
+      "background": "",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1074
+      ]
+    },
+    "5050": {
+      "id": 5050,
+      "name": "Flowers",
+      "category": 10,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1074
+      ]
+    },
+    "5051": {
+      "id": 5051,
+      "name": "Car",
+      "category": 9,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1073
+      ]
+    },
+    "5052": {
+      "id": 5052,
+      "name": "Floral Dress",
+      "category": 1,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1089
+      ]
+    },
+    "5053": {
+      "id": 5053,
+      "name": "Tally Ho Trousers",
+      "category": 5,
+      "background": null,
+      "subtype": null,
+      "position": "trousers_in",
+      "outfits": [
+        1090
+      ]
+    },
+    "5054": {
+      "id": 5054,
+      "name": "Tally Ho Hat",
+      "category": 7,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1090
+      ]
+    },
+    "5055": {
+      "id": 5055,
+      "name": "Tally Ho Jacket",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1090
+      ]
+    },
+    "5056": {
+      "id": 5056,
+      "name": "Blue Cord Trousers",
+      "category": 5,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1137
+      ]
+    },
+    "5057": {
+      "id": 5057,
+      "name": "Orange Top",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1137
+      ]
+    },
+    "5058": {
+      "id": 5058,
+      "name": "Tartan Top",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1138
+      ]
+    },
+    "5059": {
+      "id": 5059,
+      "name": "Purple Leggings",
+      "category": 5,
+      "background": null,
+      "subtype": null,
+      "position": "trousers_in",
+      "outfits": [
+        1138
+      ]
+    },
+    "5060": {
+      "id": 5060,
+      "name": "Purple Shoes",
+      "category": 6,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1138
+      ]
+    },
+    "5061": {
+      "id": 5061,
+      "name": "Leather Heart Top",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1071
+      ]
+    },
+    "5062": {
+      "id": 5062,
+      "name": "Red Top",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1071
+      ]
+    },
+    "5063": {
+      "id": 5063,
+      "name": "Leather Skirt",
+      "category": 2,
+      "background": "fill",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1071
+      ]
+    },
+    "5064": {
+      "id": 5064,
+      "name": "Guitar",
+      "category": 8,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1001,
+        1075
+      ]
+    },
+    "5065": {
+      "id": 5065,
+      "name": "Leafy Maxi Skirt",
+      "category": 2,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1145
+      ]
+    },
+    "5066": {
+      "id": 5066,
+      "name": "Turquoise Halter Top",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": "top_in",
+      "outfits": [
+        1145
+      ]
+    },
+    "5067": {
+      "id": 5067,
+      "name": "Pom Pom Scarf",
+      "category": 8,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1138
+      ]
+    },
+    "5068": {
+      "id": 5068,
+      "name": "White Blouse",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1008
+      ]
+    },
+    "5069": {
+      "id": 5069,
+      "name": "Green Patterned Waistcoat",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1008
+      ]
+    },
+    "5070": {
+      "id": 5070,
+      "name": "Umbrella",
+      "category": 8,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1012
+      ]
+    },
+    "5071": {
+      "id": 5071,
+      "name": "Shoulder Bag",
+      "category": 8,
+      "background": "thumbfill",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1011
+      ]
+    },
+    "5072": {
+      "id": 5072,
+      "name": "Red Shoes",
+      "category": 6,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1007
+      ]
+    },
+    "5073": {
+      "id": 5073,
+      "name": "Silver Clutch Bag",
+      "category": 8,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1007
+      ]
+    },
+    "5074": {
+      "id": 5074,
+      "name": "Green Dress",
+      "category": 1,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1037
+      ]
+    },
+    "5075": {
+      "id": 5075,
+      "name": "Yellow Shoes",
+      "category": 6,
+      "background": "thumb",
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1037
+      ]
+    },
+    "5076": {
+      "id": 5076,
+      "name": "Blue & White Check Trousers",
+      "category": 5,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1041
+      ]
+    },
+    "5077": {
+      "id": 5077,
+      "name": "Blue & White Check Jacket",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1041
+      ]
+    },
+    "5078": {
+      "id": 5078,
+      "name": "Blue & White Check Hat",
+      "category": 7,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1041
+      ]
+    }
+  },
+  "categories": {
+    "1": {
+      "id": 1,
+      "name": "dress",
+      "crop": {
+        "x": 0.25,
+        "y": 0.2,
+        "width": 0.5
+      },
+      "articles": [
+        5003,
+        5009,
+        5013,
+        5029,
+        5030,
+        5048,
+        5052,
+        5074
+      ]
+    },
+    "2": {
+      "id": 2,
+      "name": "skirt",
+      "crop": {
+        "x": 0.29,
+        "y": 0.37,
+        "width": 0.5
+      },
+      "articles": [
+        5006,
+        5025,
+        5032,
+        5036,
+        5063,
+        5065
+      ]
+    },
+    "3": {
+      "id": 3,
+      "name": "top",
+      "crop": {
+        "x": 0.25,
+        "y": 0.2,
+        "width": 0.5
+      },
+      "articles": [
+        5007,
+        5010,
+        5016,
+        5023,
+        5024,
+        5027,
+        5033,
+        5037,
+        5057,
+        5058,
+        5062,
+        5066,
+        5068
+      ]
+    },
+    "4": {
+      "id": 4,
+      "name": "jacket",
+      "crop": {
+        "x": 0.25,
+        "y": 0.2,
+        "width": 0.5
+      },
+      "articles": [
+        5008,
+        5019,
+        5031,
+        5040,
+        5043,
+        5045,
+        5055,
+        5061,
+        5069,
+        5077
+      ]
+    },
+    "5": {
+      "id": 5,
+      "name": "trousers",
+      "crop": {
+        "x": 0.29,
+        "y": 0.37,
+        "width": 0.5
+      },
+      "articles": [
+        5017,
+        5022,
+        5028,
+        5039,
+        5046,
+        5053,
+        5056,
+        5059,
+        5076
+      ]
+    },
+    "6": {
+      "id": 6,
+      "name": "shoes",
+      "crop": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0
+      },
+      "articles": [
+        5001,
+        5002,
+        5005,
+        5011,
+        5020,
+        5021,
+        5026,
+        5038,
+        5047,
+        5060,
+        5072,
+        5075
+      ]
+    },
+    "7": {
+      "id": 7,
+      "name": "hat",
+      "crop": {
+        "x": 0.0,
+        "y": 0.2,
+        "width": 1.0
+      },
+      "articles": [
+        5044,
+        5054,
+        5078
+      ]
+    },
+    "8": {
+      "id": 8,
+      "name": "accessory",
+      "crop": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1.0
+      },
+      "articles": [
+        5004,
+        5012,
+        5014,
+        5015,
+        5018,
+        5064,
+        5067,
+        5070,
+        5071,
+        5073
+      ]
+    },
+    "9": {
+      "id": 9,
+      "name": "scene",
+      "crop": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.2
+      },
+      "articles": [
+        5034,
+        5035,
+        5041,
+        5042,
+        5051
+      ]
+    },
+    "10": {
+      "id": 10,
+      "name": "frame",
+      "crop": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 0.2
+      },
+      "articles": [
+        5049,
+        5050
+      ]
+    }
+  }
+}
