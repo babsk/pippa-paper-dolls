@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pippa Paper Dolls</title>
+<title>Pippa Paper Dolls</title>
 
-    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -17,69 +18,68 @@
 
     <div id="leftPanel">
 
-<h2>Collections</h2>
+        <h2>Collections</h2>
 
-<ul id="collections">
-    <!-- Filled by JavaScript -->
-</ul>
+        <ul id="collections"></ul>
 
     </div>
 
-<div id="stageContainer">
+    <div id="stageContainer">
 
-    <div id="stage">
+        <div id="mobileToolbar">
 
-        <img id="backgroundLayer">
+            <button id="showCollections">
+                ☰ Collections
+            </button>
 
-        <img id="dollLayer">
+            <button id="showOutfits">
+                👗 Outfits
+            </button>
 
-        <img id="dressLayer">
+        </div>
 
-        <img id="topInLayer">
+        <div id="stage">
 
-        <img id="skirtLayer">
+            <img id="backgroundLayer">
+            <img id="dollLayer">
+            <img id="dressLayer">
+            <img id="topInLayer">
+            <img id="skirtLayer">
+            <img id="trousersInLayer">
+            <img id="shoesLayer">
+            <img id="trousersLayer">
+            <img id="topLayer">
+            <img id="jacketLayer">
+            <img id="hatLayer">
+            <img id="bagLayer">
+            <img id="frameLayer">
+            <img id="handLayer">
 
-        <img id="trousersInLayer">
-
-        <img id="shoesLayer">
-
-        <img id="trousersLayer">
-
-        <img id="topLayer">
-
-        <img id="jacketLayer">
-
-        <img id="hatLayer">
-
-        <img id="bagLayer">
-
-        <img id="frameLayer">
-
-        <img id="handLayer">
+        </div>
 
     </div>
 
-</div>
+    <div id="rightPanel">
 
-<div id="rightPanel">
+        <h2 id="collectionTitle">Outfits</h2>
 
-    <h2 id="collectionTitle">Outfits</h2>
+        <p id="collectionInfo"></p>
 
-    <p id="collectionInfo"></p>
+        <div id="outfits"></div>
 
-    <div id="outfits">
-        <!-- Buttons inserted here -->
     </div>
 
 </div>
 
-</div>
+<div id="overlay"></div>
 
 <script src="js/scene.js"></script>
 <script src="js/renderer.js"></script>
 <script src="js/wardrobe.js"></script>
 <script src="js/app.js"></script>
 <script src="js/layout.js"></script>
+<script src="js/mobile.js"></script>
 
 </body>
+
 </html>

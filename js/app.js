@@ -26,7 +26,8 @@ async function loadCollections() {
         button.textContent = collection.name;
 
         button.addEventListener("click", () => {
-            showOutfits(collection.id);
+            console.log("collection clicked, load outfits");
+            loadOutfits(collection.id);
         });
 
         li.appendChild(button);
@@ -35,8 +36,8 @@ async function loadCollections() {
 }
 loadCollections();
 
-function showOutfits(collectionId) {
-
+function loadOutfits(collectionId) {
+    console.log("loadOutfits - collectionId " + collectionId);
     const collection = gameData.collections[collectionId];
 
     if (!collection) return;
