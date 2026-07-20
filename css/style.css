@@ -7,13 +7,14 @@ body
     font-family:Arial, Helvetica, sans-serif;
 }
 
-#app
-{
+#app {
+
     display:grid;
 
-    grid-template-columns:180px 1fr 180px;
+    grid-template-columns:200px minmax(0,1fr) 200px;
 
     height:100vh;
+
 }
 
 #leftPanel,
@@ -26,41 +27,30 @@ body
     box-sizing:border-box;
 }
 #stageContainer {
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
-    overflow:auto;
-
-    background:#d6d6d6;
-
+    overflow:hidden;
+    background:#a6d6d6;
+    position:relative;
+    width:100%;
 }
 
 #stage {
-
     position:relative;
-
-    width:min(707px, 100vw);
-
-    aspect-ratio:707 / 1204;
-
+    width:707px;
+    height:1204px;
+    transform-origin:center center;
+    flex-shrink:0;
 }
 
 #stage img {
-
-    position:absolute;
-
-    left:0;
-    top:0;
-
-    width:100%;
-    height:100%;
-
-    pointer-events:none;
-
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 707px;
+    height: 1204px;
+    pointer-events: none;
 }
 
 #collections {
@@ -89,12 +79,14 @@ body
 
 /* ---------- Tablets ---------- */
 
-@media (max-width: 1000px)
+
+
+@media (max-width:1100px)
 {
 
     #app
     {
-        grid-template-columns:140px 1fr 140px;
+        grid-template-columns:160px minmax(0,1fr) 160px;
     }
 
 }
@@ -102,29 +94,26 @@ body
 
 /* ---------- Phones ---------- */
 
-@media (max-width: 700px)
+
+@media (max-width:800px)
 {
 
     #app
     {
         grid-template-columns:1fr;
-
         grid-template-rows:auto 1fr auto;
     }
 
     #leftPanel
     {
-        order:1;
-    }
-
-    #stageContainer
-    {
-        order:2;
+        max-height:140px;
+        overflow-y:auto;
     }
 
     #rightPanel
     {
-        order:3;
+        max-height:140px;
+        overflow-y:auto;
     }
 
 }
