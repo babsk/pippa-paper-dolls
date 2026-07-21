@@ -28,6 +28,12 @@ const Wardrobe = {
         return;
         }
 
+	console.log("outfit " + outfit.articles.length);
+	if (outfit.articles.length == 0)
+        {
+           alert("This outfit has not been released yet");
+        }
+
         for (const articleId of outfit.articles) {
 
             const article = gameData.articles[articleId];

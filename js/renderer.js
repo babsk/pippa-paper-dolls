@@ -34,6 +34,7 @@ function renderScene()
 {
     for(const key in Layers)
     {
-        Layers[key].src = Scene[key] || "";
+        Layers[key].src = Scene[key] || "assets/blank.png";
+
     }
 }

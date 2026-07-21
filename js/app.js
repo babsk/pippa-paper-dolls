@@ -1,13 +1,15 @@
 let gameData = null;
+loadCollections();
+
 window.onload = () =>
 {
+    console.log("onload");
     Wardrobe.dressNaked();
 };
 
-
-
 async function loadCollections() {
 
+    console.log("loadCollections");
     const response = await fetch("gameData.json");
     gameData = await response.json();
 
@@ -28,13 +30,13 @@ async function loadCollections() {
         button.addEventListener("click", () => {
             console.log("collection clicked, load outfits");
             loadOutfits(collection.id);
+            showOutfits();
         });
 
         li.appendChild(button);
         collectionList.appendChild(li);
     }
 }
-loadCollections();
 
 function loadOutfits(collectionId) {
     console.log("loadOutfits - collectionId " + collectionId);
@@ -62,6 +64,7 @@ function loadOutfits(collectionId) {
 
         button.addEventListener("click", () => {
             Wardrobe.dressOutfit(outfit.id);
+            closePanels();
         });
 
         outfitContainer.appendChild(button);

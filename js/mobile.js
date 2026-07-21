@@ -27,8 +27,6 @@ function showOutfits()
     closePanels();
 
     rightPanel.classList.add("open");
-
-    overlay.style.display = "block";
 }
 
 document
