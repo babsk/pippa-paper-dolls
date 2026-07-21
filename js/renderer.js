@@ -4,15 +4,15 @@ const Layers = {
 
     doll:document.getElementById("dollLayer"),
 
-    dress:document.getElementById("dressLayer"),
-
-    skirt:document.getElementById("skirtLayer"),
-
     topIn:document.getElementById("topInLayer"),
 
     trousersIn:document.getElementById("trousersInLayer"),
 
     shoes:document.getElementById("shoesLayer"),
+
+    dress:document.getElementById("dressLayer"),
+
+    skirt:document.getElementById("skirtLayer"),
 
     trousers:document.getElementById("trousersLayer"),
 
@@ -35,6 +35,5 @@ function renderScene()
     for(const key in Layers)
     {
         Layers[key].src = Scene[key] || "assets/blank.png";
-
     }
 }

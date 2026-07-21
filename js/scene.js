@@ -2,15 +2,15 @@ const Scene = {
 
     background:null,
 
-    dress:null,
-
-    skirt:null,
-
     topIn:null,
 
     trousersIn:null,
 
     shoes:null,
+
+    dress:null,
+
+    skirt:null,
 
     trousers:null,
 

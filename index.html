@@ -12,41 +12,48 @@
 
 </head>
 
+
 <body>
 
 <div id="app">
 
-    <div id="leftPanel">
 
-        <h2>Collections</h2>
+<div id="leftPanel">
 
-        <ul id="collections"></ul>
-
+    <div id="boutiqueLogo">
+        <img src="assets/boutique.png"
+             alt="Pippa's Boutique">
     </div>
 
+
+    <div id="wardrobeMenu"></div>
+
+</div>
+
+
+
     <div id="stageContainer">
+
 
         <div id="mobileToolbar">
 
             <button id="showCollections">
-                ☰ Collections
-            </button>
-
-            <button id="showOutfits">
-                👗 Outfits
+                🧳 Wardrobe
             </button>
 
         </div>
+
+
 
         <div id="stage">
 
             <img id="backgroundLayer">
             <img id="dollLayer">
-            <img id="dressLayer">
             <img id="topInLayer">
-            <img id="skirtLayer">
             <img id="trousersInLayer">
             <img id="shoesLayer">
+            <img id="dressLayer">
+            <img id="skirtLayer">
             <img id="trousersLayer">
             <img id="topLayer">
             <img id="jacketLayer">
@@ -57,21 +64,16 @@
 
         </div>
 
-    </div>
-
-    <div id="rightPanel">
-
-        <h2 id="collectionTitle">Outfits</h2>
-
-        <p id="collectionInfo"></p>
-
-        <div id="outfits"></div>
 
     </div>
+
 
 </div>
 
+
 <div id="overlay"></div>
+
+
 
 <script src="js/scene.js"></script>
 <script src="js/renderer.js"></script>
@@ -79,6 +81,7 @@
 <script src="js/app.js"></script>
 <script src="js/layout.js"></script>
 <script src="js/mobile.js"></script>
+
 
 </body>
 

@@ -1,80 +1,181 @@
 let gameData = null;
-loadCollections();
 
-window.onload = () =>
+
+window.onload = async () =>
 {
     console.log("onload");
+
+    await loadGameData();
+
+    buildWardrobeMenu();
+
     Wardrobe.dressNaked();
+
+    resizeStage();
 };
 
-async function loadCollections() {
 
-    console.log("loadCollections");
+
+async function loadGameData()
+{
+    console.log("Loading game data");
+
     const response = await fetch("gameData.json");
+
     gameData = await response.json();
-
-    const collectionList = document.getElementById("collections");
-
-    const collections = Object.values(gameData.collections)
-        .filter(collection => !collection.special);
-
-    collections.sort((a, b) => a.year - b.year);
-
-    for (const collection of collections) {
-
-        const li = document.createElement("li");
-        const button = document.createElement("button");
-
-        button.textContent = collection.name;
-
-        button.addEventListener("click", () => {
-            console.log("collection clicked, load outfits");
-            loadOutfits(collection.id);
-            showOutfits();
-        });
-
-        li.appendChild(button);
-        collectionList.appendChild(li);
-    }
 }
 
-function loadOutfits(collectionId) {
-    console.log("loadOutfits - collectionId " + collectionId);
-    const collection = gameData.collections[collectionId];
-
-    if (!collection) return;
-
-    document.getElementById("collectionTitle").textContent = collection.name;
-
-    document.getElementById("collectionInfo").textContent =
-        "Released: " + collection.year;
-
-    const outfitContainer = document.getElementById("outfits");
-    outfitContainer.innerHTML = "";
 
 
-    for (const outfitId of collection.outfits) {
+function buildWardrobeMenu()
+{
+    const wardrobeMenu =
+        document.getElementById("wardrobeMenu");
 
-        const outfit = gameData.outfits[outfitId];
 
-        if (!outfit) continue;
+    const collections =
+        Object.values(gameData.collections)
+        .filter(collection => !collection.special)
+        .sort((a,b)=>a.year-b.year);
 
-        const button = document.createElement("button");
-        button.textContent = outfit.name;
-        if (outfit.articles.length == 0)
+
+
+    for (const collection of collections)
+    {
+
+        const collectionEntry =
+            document.createElement("div");
+
+        collectionEntry.className =
+            "collectionEntry";
+
+
+
+        const collectionHeader =
+            document.createElement("div");
+
+
+        collectionHeader.className =
+            "collectionHeader";
+
+
+collectionHeader.innerHTML =
+`
+<div class="collectionName">
+    <img class="flowerIcon" src="assets/flower.png">
+    ${collection.name}
+</div>
+
+<div class="collectionYear">
+    ${collection.year !== null ? collection.year : ""}
+</div>
+`;
+
+
+
+        const outfitList =
+            document.createElement("div");
+
+
+        outfitList.className =
+            "outfitList";
+
+
+
+        collectionHeader.addEventListener("click", () =>
         {
-           button.disabled = true;
-        }
-        else
-        {
-           button.disabled = false;
-        }
 
-        button.addEventListener("click", () => {
-            Wardrobe.dressOutfit(outfit.id);
-            closePanels();
+            const isOpen =
+                collectionEntry.classList.toggle("open");
+
+
+collectionHeader.innerHTML =
+`
+<div class="collectionName">
+    <img class="flowerIcon ${isOpen ? "open" : ""}" 
+         src="assets/flower.png">
+    ${collection.name}
+</div>
+
+<div class="collectionYear">
+    ${collection.year !== null ? collection.year : ""}
+</div>
+`;
+
+
+
+            if (isOpen && outfitList.children.length === 0)
+            {
+                buildOutfitList(
+                    collection,
+                    outfitList
+                );
+            }
+
         });
 
-        outfitContainer.appendChild(button);
+
+
+        collectionEntry.appendChild(collectionHeader);
+
+        collectionEntry.appendChild(outfitList);
+
+
+        wardrobeMenu.appendChild(collectionEntry);
+
     }
+
+}
+
+
+
+
+function buildOutfitList(collection, outfitList)
+{
+
+    for (const outfitId of collection.outfits)
+    {
+
+        const outfit =
+            gameData.outfits[outfitId];
+
+
+        if (!outfit)
+            continue;
+
+
+
+        const button =
+            document.createElement("button");
+
+
+        button.className =
+            "outfitButton";
+
+
+        button.textContent =
+            outfit.name;
+
+
+
+        if (outfit.articles.length === 0)
+        {
+            button.disabled = true;
+        }
+
+
+        button.addEventListener("click", () =>
+        {
+
+            Wardrobe.dressOutfit(outfit.id);
+
+            closePanels();
+
+        });
+
+
+        outfitList.appendChild(button);
+
+    }
+
 }

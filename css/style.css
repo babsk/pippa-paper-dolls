@@ -2,124 +2,194 @@ body
 {
     margin:0;
 
-    background:#d9d9d9;
+    background:#d8c9aa;
 
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:
+        "Palatino Linotype",
+        Palatino,
+        Georgia,
+        serif;
 }
 
-#app {
 
+
+#app
+{
     display:grid;
 
-    grid-template-columns:200px minmax(0,1fr) 200px;
+    grid-template-columns:240px minmax(0,1fr);
 
     height:100vh;
-
 }
 
-#leftPanel,
-#rightPanel
-{
-    background:#ece8df;
 
-    padding:20px;
+
+
+#leftPanel
+{
+    background:#f6f5e0;
+
+    padding:15px;
 
     box-sizing:border-box;
-}
-#stageContainer {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    overflow:hidden;
-    background:#a6d6d6;
-    position:relative;
-    width:100%;
+
+    overflow-y:auto;
+
+    box-shadow:
+        inset -5px 0 15px rgba(80,60,30,.18);
 }
 
-#stage {
+
+
+#leftPanel h2
+{
+    text-align:center;
+
+    color:#55472d;
+
+    letter-spacing:2px;
+
+    font-size:1.3rem;
+
+    text-transform:uppercase;
+}
+
+
+
+
+
+.collectionHeader
+{
+    padding:12px;
+
+    color:#57492f;
+
+    font-size:1.1rem;
+
+    cursor:pointer;
+
+    border-bottom:
+        1px solid rgba(80,60,30,.2);
+}
+
+
+
+.collectionHeader:hover
+{
+    background:#e9e8cd;
+}
+
+
+
+
+.outfitList
+{
+    display:none;
+
+    padding-left:25px;
+
+}
+
+
+
+.collectionEntry.open .outfitList
+{
+    display:block;
+}
+
+
+
+
+.outfitButton
+{
+    display:block;
+
+    width:100%;
+
+    text-align:left;
+
+    border:none;
+
+    background:none;
+
+    padding:8px;
+
+    font-family:
+        "Palatino Linotype",
+        Georgia,
+        serif;
+
+    color:#75613e;
+
+    cursor:pointer;
+
+    font-size:0.95rem;
+
+    transition:all 0.2s ease;
+}
+
+
+
+.outfitButton:hover
+{
+    text-decoration:underline;
+}
+
+
+
+
+
+#stageContainer
+{
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow:hidden;
+
+    background:#a6d6d6;
+
     position:relative;
+}
+
+
+
+
+#stage
+{
+    position:relative;
+
     width:707px;
+
     height:1204px;
+
     transform-origin:center center;
+
     flex-shrink:0;
 }
 
-#stage img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 707px;
-    height: 1204px;
-    pointer-events: none;
-}
-
-#collections {
-    list-style: none;
-    padding: 0;
-}
-
-#collections li {
-    margin-bottom: 2px;
-}
-
-#collections button {
-    width: 100%;
-    padding: 5px;
-    text-align: left;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-#collections button,
-#outfits button {
-    display: block;
-    width: 100%;
-    margin-bottom: 5px;
-}
-
-/* ---------- Tablets ---------- */
 
 
-
-@media (max-width:1100px)
+#stage img
 {
+    position:absolute;
 
-    #app
-    {
-        grid-template-columns:160px minmax(0,1fr) 160px;
-    }
+    left:0;
 
+    top:0;
+
+    width:707px;
+
+    height:1204px;
+
+    pointer-events:none;
 }
 
 
-/* ---------- Phones ---------- */
 
 
-@media (max-width:800px)
-{
-
-    #app
-    {
-        grid-template-columns:1fr;
-        grid-template-rows:auto 1fr auto;
-    }
-
-    #leftPanel
-    {
-        max-height:140px;
-        overflow-y:auto;
-    }
-
-    #rightPanel
-    {
-        max-height:140px;
-        overflow-y:auto;
-    }
-
-}
-
-
-/* ---------- Mobile toolbar ---------- */
 
 #mobileToolbar
 {
@@ -128,28 +198,31 @@ body
     position:absolute;
 
     top:10px;
+
     left:10px;
-    right:10px;
 
     z-index:1000;
-
-    justify-content:space-between;
 }
+
+
 
 #mobileToolbar button
 {
     padding:10px 14px;
 
+    background:#eee1c4;
+
     border:none;
 
-    border-radius:6px;
+    border-radius:5px;
 
-    background:#ece8df;
+    font-family:Georgia,serif;
 
-    font-size:16px;
 }
 
-/* ---------- Overlay ---------- */
+
+
+
 
 #overlay
 {
@@ -164,58 +237,130 @@ body
     z-index:500;
 }
 
-/* ---------- Mobile ---------- */
 
-@media (max-width:800px)
+
+
+@media(max-width:800px)
 {
 
-    #mobileToolbar
+
+    #app
     {
-        display:flex;
+        grid-template-columns:1fr;
     }
 
-    #leftPanel,
-    #rightPanel
+
+    #leftPanel
     {
         position:fixed;
 
         top:0;
+
         bottom:0;
 
         width:260px;
+
+        left:-260px;
 
         z-index:1001;
 
         transition:.3s;
     }
 
-    #leftPanel
-    {
-        left:-260px;
-    }
-
-    #rightPanel
-    {
-        right:-260px;
-    }
 
     #leftPanel.open
     {
         left:0;
     }
 
-    #rightPanel.open
+
+
+    #mobileToolbar
     {
-        right:0;
+        display:block;
     }
 
-#leftPanel,
-#rightPanel
-{
-    max-height:none;
-    height:100%;
-    overflow-y:auto;
-    box-sizing:border-box;
+
 }
 
+.outfitButton:disabled
+{
+    color:#aaa18e;
+
+    cursor:not-allowed;
+
+    text-decoration:none;
+
+    font-style:italic;
+
+    opacity:0.6;
+}
+
+.collectionName
+{
+    font-size:1.05rem;
+
+    letter-spacing:1px;
+
+    color:#57492f;
+}
+
+
+.collectionYear
+{
+    font-size:0.8rem;
+
+    font-style:italic;
+
+    color:#8a7955;
+
+    margin-left:20px;
+
+    margin-top:2px;
+}
+
+#boutiqueLogo
+{
+    text-align:center;
+
+    margin-bottom:20px;
+}
+
+
+#boutiqueLogo img
+{
+    max-width:90%;
+
+    height:auto;
+}
+
+.collectionName
+{
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-size:1.05rem;
+
+    letter-spacing:1px;
+
+    color:#57492f;
+}
+
+
+
+.flowerIcon
+{
+    width:24px;
+
+    height:24px;
+
+    object-fit:contain;
+}
+
+.flowerIcon.open
+{
+    transform:rotate(20deg);
 }
