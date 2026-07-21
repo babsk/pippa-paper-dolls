@@ -18,7 +18,7 @@ async function loadCollections() {
     const collections = Object.values(gameData.collections)
         .filter(collection => !collection.special);
 
-    collections.sort((a, b) => a.id - b.id);
+    collections.sort((a, b) => a.year - b.year);
 
     for (const collection of collections) {
 
@@ -61,6 +61,14 @@ function loadOutfits(collectionId) {
 
         const button = document.createElement("button");
         button.textContent = outfit.name;
+        if (outfit.articles.length == 0)
+        {
+           button.disabled = true;
+        }
+        else
+        {
+           button.disabled = false;
+        }
 
         button.addEventListener("click", () => {
             Wardrobe.dressOutfit(outfit.id);
