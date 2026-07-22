@@ -1308,7 +1308,12 @@
       "description": null,
       "year": null,
       "free": false,
-      "articles": []
+      "articles": [
+        5087,
+        5088,
+        5089,
+        5011
+      ]
     },
     "1095": {
       "id": 1095,
@@ -1924,7 +1929,8 @@
         1005,
         1083,
         1089,
-        1097
+        1097,
+        1094
       ]
     },
     "5012": {
@@ -2760,6 +2766,39 @@
       "outfits": [
         1031
       ]
+    },
+    "5087": {
+      "id": 5087,
+      "name": "Butterfly top",
+      "category": 3,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1094
+      ]
+    },
+    "5088": {
+      "id": 5088,
+      "name": "Purple Hot Pants",
+      "category": 5,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1094
+      ]
+    },
+    "5089": {
+      "id": 5089,
+      "name": "Purple Waistcoat",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1094
+      ]
     }
   },
   "categories": {
@@ -2824,7 +2863,8 @@
         5066,
         5068,
         5079,
-        5081
+        5081,
+        5087
       ]
     },
     "4": {
@@ -2846,7 +2886,8 @@
         5061,
         5069,
         5077,
-        5083
+        5083,
+        5089
       ]
     },
     "5": {
@@ -2867,7 +2908,8 @@
         5056,
         5059,
         5076,
-        5084
+        5084,
+        5088
       ]
     },
     "6": {
