@@ -140,9 +140,13 @@ function buildWardrobeMenu()
     {
         buildCollectionMenu();
     }
-    else
+    else if (browseMode === "garment")
     {
         buildGarmentMenu();
+    }
+    else if (browseMode === "display")
+    {
+        buildDisplayMenu();
     }
 }
 
@@ -237,6 +241,27 @@ document
 
         buildWardrobeMenu();
     });
+
+document
+    .getElementById("browseDisplay")
+    .addEventListener("click", () =>
+{
+    browseMode = "display";
+
+    document
+        .getElementById("browseCollections")
+        .classList.remove("active");
+
+    document
+        .getElementById("browseGarments")
+        .classList.remove("active");
+
+    document
+        .getElementById("browseDisplay")
+        .classList.add("active");
+
+    buildWardrobeMenu();
+});
 
 
 function buildGarmentMenu()
@@ -381,3 +406,124 @@ function buildGarmentMenu()
 
     }
 }
+
+function buildDisplayMenu()
+{
+    const wardrobeMenu =
+        document.getElementById("wardrobeMenu");
+
+    const groups = {
+        scenery: [],
+        frame: []
+    };
+
+    for (const article of Object.values(gameData.articles))
+    {
+        if (article.category === 9)
+        {
+            groups.scenery.push(article);
+        }
+        else if (article.category === 10)
+        {
+            groups.frame.push(article);
+        }
+    }
+
+    createDisplayCategory(
+        "Scenery",
+        "scenery",
+        groups.scenery,
+        wardrobeMenu
+    );
+
+    createDisplayCategory(
+        "Frames",
+        "frame",
+        groups.frame,
+        wardrobeMenu
+    );
+}
+
+function createDisplayCategory(
+    title,
+    type,
+    articles,
+    container)
+{
+    if (articles.length === 0)
+        return;
+
+    const categoryEntry =
+        document.createElement("div");
+
+    categoryEntry.className =
+        "collectionEntry";
+
+    const categoryHeader =
+        document.createElement("div");
+
+    categoryHeader.className =
+        "collectionHeader";
+
+    categoryHeader.innerHTML =
+    `
+    <div class="collectionName">
+        ${title}
+    </div>
+    `;
+
+    const articleList =
+        document.createElement("div");
+
+    articleList.className =
+        "outfitList";
+
+    categoryHeader.addEventListener("click", () =>
+    {
+        categoryEntry.classList.toggle("open");
+    });
+
+    const clearButton =
+        document.createElement("button");
+
+    clearButton.className =
+        "outfitButton";
+
+    clearButton.textContent =
+        type === "scenery"
+        ? "✿ No scenery"
+        : "✿ No frame";
+
+    clearButton.addEventListener("click", () =>
+    {
+        Wardrobe.clearDisplay(type);
+        closePanels();
+    });
+
+    articleList.appendChild(clearButton);
+
+    for (const article of articles)
+    {
+        const button =
+            document.createElement("button");
+
+        button.className =
+            "outfitButton";
+
+        button.textContent =
+            article.name;
+
+        button.addEventListener("click", () =>
+        {
+            Wardrobe.wearDisplayArticle(article.id);
+            closePanels();
+        });
+
+        articleList.appendChild(button);
+    }
+
+    categoryEntry.appendChild(categoryHeader);
+    categoryEntry.appendChild(articleList);
+    container.appendChild(categoryEntry);
+}
+

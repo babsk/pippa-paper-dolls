@@ -126,6 +126,45 @@ clearLayer(categoryId)
     renderScene();
 },
 
+wearDisplayArticle(articleId)
+{
+    const article = gameData.articles[articleId];
+
+    if (!article)
+        return;
+
+    if (article.category === 9)
+    {
+        Scene.background =
+            "assets/clothes/img_"
+            + articleId
+            + ".png";
+    }
+    else if (article.category === 10)
+    {
+        Scene.frame =
+            "assets/clothes/img_"
+            + articleId
+            + ".png";
+    }
+
+    renderScene();
+},
+
+clearDisplay(type)
+{
+    if (type === "scenery")
+    {
+        Scene.background = null;
+    }
+    else if (type === "frame")
+    {
+        Scene.frame = null;
+    }
+
+    renderScene();
+},
+
     dressNaked()
     {
        renderScene();
