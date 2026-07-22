@@ -20,7 +20,7 @@ const Scene = {
 
     hat:null,
 
-    bag:null,
+    accessory:null,
 
     frame:null,
 

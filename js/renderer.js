@@ -22,7 +22,7 @@ const Layers = {
 
     hat:document.getElementById("hatLayer"),
 
-    bag:document.getElementById("bagLayer"),
+    accessory:document.getElementById("accessoryLayer"),
 
     hand:document.getElementById("handLayer"),
 

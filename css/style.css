@@ -364,3 +364,110 @@ body
 {
     transform:rotate(20deg);
 }
+
+#browseSelector
+{
+    margin-bottom:20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+}
+
+.browseButton
+{
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    background:none;
+
+    border:none;
+
+    width:100%;
+
+    text-align:left;
+
+    cursor:pointer;
+
+    padding:6px 0;
+
+    font-family:
+        "Palatino Linotype",
+        Georgia,
+        serif;
+
+    color:#75613e;
+}
+
+
+.browseButterfly
+{
+    width:22px;
+
+    height:22px;
+
+    object-fit:contain;
+
+    visibility:hidden;
+}
+
+
+.browseButton.active .browseButterfly
+{
+    visibility:visible;
+}
+
+#startAgainButton
+{
+    margin-bottom:16px;
+}
+
+.boutiqueDivider
+{
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    margin:14px 0;
+}
+
+
+.boutiqueDivider span
+{
+    flex:1;
+
+    border-top:1px solid #c9b98f;
+}
+
+
+.boutiqueDivider img
+{
+    width:18px;
+
+    height:18px;
+}
+
+.browseTitle
+{
+    font-family:
+        "Palatino Linotype",
+        Georgia,
+        serif;
+
+    font-size:0.85rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    color:#8a7955;
+
+    margin-bottom:8px;
+}

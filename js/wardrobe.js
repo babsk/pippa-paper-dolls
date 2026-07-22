@@ -7,7 +7,7 @@ const CategoryLayers = {
     "5": "trousers",
     "6": "shoes",
     "7": "hat",
-    "8": "bag"
+    "8": "accessory"
 
 };
 
@@ -15,6 +15,9 @@ const Wardrobe = {
 
     clear()
     {
+        clearScene();
+
+        renderScene();
     },
 
     dressOutfit(outfitId) {
@@ -60,7 +63,68 @@ const Wardrobe = {
         renderScene();
     },
 
+    wearArticle(articleId) {
 
+        const article = gameData.articles[articleId];
+
+        if (!article) {
+            console.log("Article not found:", articleId);
+            return;
+        }
+
+
+        console.log("Wearing article:", article.name);
+
+
+        let layer = CategoryLayers[article.category];
+
+
+        if (article.position === "trousers_in") {
+            layer = "trousersIn";
+        }
+
+
+        if (article.position === "top_in") {
+            layer = "topIn";
+        }
+
+
+        if (layer) {
+
+            Scene[layer] =
+                "assets/clothes/img_" + articleId + ".png";
+
+        }
+
+
+        renderScene();
+
+    },
+
+clearLayer(categoryId)
+{
+    let layer = CategoryLayers[categoryId];
+
+    if (!layer)
+        return;
+
+    if (layer === "top")
+    {
+        Scene.top = null;
+        Scene.topIn = null;
+    }
+    else if (layer === "trousers")
+    {
+        Scene.trousers = null;
+        Scene.trousersIn = null;
+    }
+    else
+    {
+        Scene[layer] = null;
+    }
+
+    renderScene();
+},
 
     dressNaked()
     {

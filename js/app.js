@@ -1,4 +1,5 @@
 let gameData = null;
+let browseMode = "collection";
 
 
 window.onload = async () =>
@@ -27,8 +28,9 @@ async function loadGameData()
 
 
 
-function buildWardrobeMenu()
+function buildCollectionMenu()
 {
+    console.log("buildCollectionMenu");
     const wardrobeMenu =
         document.getElementById("wardrobeMenu");
 
@@ -127,8 +129,22 @@ collectionHeader.innerHTML =
 
 }
 
+function buildWardrobeMenu()
+{
+    const wardrobeMenu =
+        document.getElementById("wardrobeMenu");
 
+    wardrobeMenu.innerHTML = "";
 
+    if (browseMode === "collection")
+    {
+        buildCollectionMenu();
+    }
+    else
+    {
+        buildGarmentMenu();
+    }
+}
 
 function buildOutfitList(collection, outfitList)
 {
@@ -178,4 +194,190 @@ function buildOutfitList(collection, outfitList)
 
     }
 
+}
+document
+    .getElementById("startAgainButton")
+    .addEventListener("click", () =>
+{
+    Wardrobe.clear();
+
+    closePanels();
+});
+
+document
+    .getElementById("browseCollections")
+    .addEventListener("click", () =>
+    {
+        browseMode = "collection";
+
+        document
+            .getElementById("browseCollections")
+            .classList.add("active");
+
+        document
+            .getElementById("browseGarments")
+            .classList.remove("active");
+
+        buildWardrobeMenu();
+    });
+
+document
+    .getElementById("browseGarments")
+    .addEventListener("click", () =>
+    {
+        browseMode = "garment";
+
+        document
+            .getElementById("browseCollections")
+            .classList.remove("active");
+
+        document
+            .getElementById("browseGarments")
+            .classList.add("active");
+
+        buildWardrobeMenu();
+    });
+
+
+function buildGarmentMenu()
+{
+    console.log("buildGarmentMenu");
+    const wardrobeMenu =
+        document.getElementById("wardrobeMenu");
+
+
+
+    const garments = {};
+
+
+
+    // Create empty category groups
+    for (const categoryId in CategoryLayers)
+    {
+        garments[categoryId] = [];
+    }
+
+
+
+    // Group articles by category
+    for (const article of Object.values(gameData.articles))
+    {
+        if (garments[article.category])
+        {
+            garments[article.category].push(article);
+        }
+    }
+
+
+
+    // Create the menu
+    for (const categoryId in garments)
+    {
+
+        const articles =
+            garments[categoryId];
+
+
+        // Don't show empty categories
+        if (articles.length === 0)
+            continue;
+
+
+
+        const categoryEntry =
+            document.createElement("div");
+
+        categoryEntry.className =
+            "collectionEntry";
+
+
+
+        const categoryHeader =
+            document.createElement("div");
+
+        categoryHeader.className =
+            "collectionHeader";
+
+
+        const categoryName =
+            CategoryLayers[categoryId];
+
+
+        categoryHeader.innerHTML =
+        `
+        <div class="collectionName">
+            ${categoryName}
+        </div>
+        `;
+
+
+
+        const articleList =
+            document.createElement("div");
+
+
+        articleList.className =
+            "outfitList";
+
+
+
+        categoryHeader.addEventListener("click", () =>
+        {
+            categoryEntry.classList.toggle("open");
+        });
+
+        const clearButton =
+           document.createElement("button");
+
+        clearButton.className =
+            "outfitButton";
+
+        clearButton.textContent =
+           "✿ Remove " + CategoryLayers[categoryId];
+
+        clearButton.addEventListener("click", () =>
+        {
+            Wardrobe.clearLayer(categoryId);
+
+            closePanels();
+        });
+
+        articleList.appendChild(clearButton);
+
+        for (const article of articles)
+        {
+            const button =
+                document.createElement("button");
+
+
+            button.className =
+                "outfitButton";
+
+
+            button.textContent =
+                article.name;
+
+
+
+            button.addEventListener("click", () =>
+            {
+                Wardrobe.wearArticle(article.id);
+
+                closePanels();
+            });
+
+
+
+            articleList.appendChild(button);
+        }
+
+
+
+        categoryEntry.appendChild(categoryHeader);
+
+        categoryEntry.appendChild(articleList);
+
+        wardrobeMenu.appendChild(categoryEntry);
+
+    }
 }
