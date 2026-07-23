@@ -15,8 +15,6 @@ window.onload = async () =>
     resizeStage();
 };
 
-
-
 async function loadGameData()
 {
     console.log("Loading game data");
@@ -26,85 +24,59 @@ async function loadGameData()
     gameData = await response.json();
 }
 
-
-
 function buildCollectionMenu()
 {
     console.log("buildCollectionMenu");
-    const wardrobeMenu =
-        document.getElementById("wardrobeMenu");
-
+    const wardrobeMenu = document.getElementById("wardrobeMenu");
 
     const collections =
         Object.values(gameData.collections)
         .filter(collection => !collection.special)
         .sort((a,b)=>a.year-b.year);
 
-
-
     for (const collection of collections)
     {
+        const collectionEntry = document.createElement("div");
 
-        const collectionEntry =
-            document.createElement("div");
+        collectionEntry.className = "collectionEntry";
 
-        collectionEntry.className =
-            "collectionEntry";
+        const collectionHeader = document.createElement("div");
 
+        collectionHeader.className = "menuHeader collectionHeader";
 
+        collectionHeader.innerHTML =
+                `
+                        <div class="collectionName">
+                            <img class="flowerIcon" src="assets/flower.png">
+                            ${collection.name}
+                        </div>
 
-        const collectionHeader =
-            document.createElement("div");
+                        <div class="collectionYear">
+                            ${collection.year !== null ? collection.year : ""}
+                        </div>
+                `;
 
+        const outfitList = document.createElement("div");
 
-        collectionHeader.className =
-            "collectionHeader";
-
-
-collectionHeader.innerHTML =
-`
-<div class="collectionName">
-    <img class="flowerIcon" src="assets/flower.png">
-    ${collection.name}
-</div>
-
-<div class="collectionYear">
-    ${collection.year !== null ? collection.year : ""}
-</div>
-`;
-
-
-
-        const outfitList =
-            document.createElement("div");
-
-
-        outfitList.className =
-            "outfitList";
-
-
+        outfitList.className = "outfitList";
 
         collectionHeader.addEventListener("click", () =>
         {
 
-            const isOpen =
-                collectionEntry.classList.toggle("open");
+            const isOpen = collectionEntry.classList.toggle("open");
 
+            collectionHeader.innerHTML =
+                `
+                        <div class="collectionName">
+                            <img class="flowerIcon ${isOpen ? "open" : ""}" 
+                                 src="assets/flower.png">
+                                    ${collection.name}
+                        </div>
 
-collectionHeader.innerHTML =
-`
-<div class="collectionName">
-    <img class="flowerIcon ${isOpen ? "open" : ""}" 
-         src="assets/flower.png">
-    ${collection.name}
-</div>
-
-<div class="collectionYear">
-    ${collection.year !== null ? collection.year : ""}
-</div>
-`;
-
-
+                        <div class="collectionYear">
+                            ${collection.year !== null ? collection.year : ""}
+                        </div>
+                `;
 
             if (isOpen && outfitList.children.length === 0)
             {
@@ -116,23 +88,18 @@ collectionHeader.innerHTML =
 
         });
 
-
-
         collectionEntry.appendChild(collectionHeader);
 
         collectionEntry.appendChild(outfitList);
 
-
         wardrobeMenu.appendChild(collectionEntry);
-
     }
-
 }
 
 function buildWardrobeMenu()
 {
-    const wardrobeMenu =
-        document.getElementById("wardrobeMenu");
+    console.log("buildWardrobeMenu");
+    const wardrobeMenu = document.getElementById("wardrobeMenu");
 
     wardrobeMenu.innerHTML = "";
 
@@ -152,53 +119,37 @@ function buildWardrobeMenu()
 
 function buildOutfitList(collection, outfitList)
 {
-
+    console.log("buildOutfitList");
     for (const outfitId of collection.outfits)
     {
-
-        const outfit =
-            gameData.outfits[outfitId];
-
+        const outfit = gameData.outfits[outfitId];
 
         if (!outfit)
             continue;
 
+        const button = document.createElement("button");
 
+        button.className = "outfitButton";
 
-        const button =
-            document.createElement("button");
-
-
-        button.className =
-            "outfitButton";
-
-
-        button.textContent =
-            outfit.name;
-
-
+        button.textContent = outfit.name;
 
         if (outfit.articles.length === 0)
         {
             button.disabled = true;
         }
 
-
         button.addEventListener("click", () =>
         {
-
             Wardrobe.dressOutfit(outfit.id);
 
             closePanels();
-
         });
 
-
         outfitList.appendChild(button);
-
     }
 
 }
+
 document
     .getElementById("startAgainButton")
     .addEventListener("click", () =>
@@ -222,6 +173,10 @@ document
             .getElementById("browseGarments")
             .classList.remove("active");
 
+        document
+            .getElementById("browseDisplay")
+            .classList.remove("active");
+
         buildWardrobeMenu();
     });
 
@@ -233,6 +188,10 @@ document
 
         document
             .getElementById("browseCollections")
+            .classList.remove("active");
+
+        document
+            .getElementById("browseDisplay")
             .classList.remove("active");
 
         document
@@ -270,19 +229,13 @@ function buildGarmentMenu()
     const wardrobeMenu =
         document.getElementById("wardrobeMenu");
 
-
-
     const garments = {};
-
-
 
     // Create empty category groups
     for (const categoryId in CategoryLayers)
     {
         garments[categoryId] = [];
     }
-
-
 
     // Group articles by category
     for (const article of Object.values(gameData.articles))
@@ -293,72 +246,46 @@ function buildGarmentMenu()
         }
     }
 
-
-
     // Create the menu
     for (const categoryId in garments)
     {
-
-        const articles =
-            garments[categoryId];
-
+        const articles = garments[categoryId];
 
         // Don't show empty categories
         if (articles.length === 0)
             continue;
 
+        const categoryEntry = document.createElement("div");
 
+        categoryEntry.className = "collectionEntry";
 
-        const categoryEntry =
-            document.createElement("div");
+        const categoryHeader = document.createElement("div");
 
-        categoryEntry.className =
-            "collectionEntry";
+        categoryHeader.className = "menuHeader collectionHeader";
 
-
-
-        const categoryHeader =
-            document.createElement("div");
-
-        categoryHeader.className =
-            "collectionHeader";
-
-
-        const categoryName =
-            CategoryLayers[categoryId];
-
+        const categoryName = CategoryLayers[categoryId];
 
         categoryHeader.innerHTML =
-        `
-        <div class="collectionName">
-            ${categoryName}
-        </div>
-        `;
+              `
+                    <div class="collectionName">
+                        ${categoryName}
+                    </div>
+              `;
 
+        const articleList = document.createElement("div");
 
-
-        const articleList =
-            document.createElement("div");
-
-
-        articleList.className =
-            "outfitList";
-
-
+        articleList.className = "outfitList";
 
         categoryHeader.addEventListener("click", () =>
         {
             categoryEntry.classList.toggle("open");
         });
 
-        const clearButton =
-           document.createElement("button");
+        const clearButton = document.createElement("button");
 
-        clearButton.className =
-            "outfitButton";
+        clearButton.className = "outfitButton";
 
-        clearButton.textContent =
-           "✿ Remove " + CategoryLayers[categoryId];
+        clearButton.textContent = "✿ Remove " + CategoryLayers[categoryId];
 
         clearButton.addEventListener("click", () =>
         {
@@ -371,18 +298,11 @@ function buildGarmentMenu()
 
         for (const article of articles)
         {
-            const button =
-                document.createElement("button");
+            const button = document.createElement("button");
 
+            button.className = "outfitButton";
 
-            button.className =
-                "outfitButton";
-
-
-            button.textContent =
-                article.name;
-
-
+            button.textContent = article.name;
 
             button.addEventListener("click", () =>
             {
@@ -391,19 +311,14 @@ function buildGarmentMenu()
                 closePanels();
             });
 
-
-
             articleList.appendChild(button);
         }
-
-
 
         categoryEntry.appendChild(categoryHeader);
 
         categoryEntry.appendChild(articleList);
 
         wardrobeMenu.appendChild(categoryEntry);
-
     }
 }
 
@@ -462,8 +377,7 @@ function createDisplayCategory(
     const categoryHeader =
         document.createElement("div");
 
-    categoryHeader.className =
-        "collectionHeader";
+    categoryHeader.className = "menuHeader collectionHeader";
 
     categoryHeader.innerHTML =
     `

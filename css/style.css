@@ -54,33 +54,41 @@ body
     text-transform:uppercase;
 }
 
-
-
-
-
-.collectionHeader
+.menuHeader
 {
     padding:12px;
-
     color:#57492f;
-
     font-size:1.1rem;
-
     cursor:pointer;
-
-    border-bottom:
-        1px solid rgba(80,60,30,.2);
 }
 
-
-
-.collectionHeader:hover
+.menuHeader:hover
 {
     background:#e9e8cd;
 }
 
+.collectionHeader
+{
+    border-bottom:
+        1px solid rgba(80,60,30,.2);
+}
 
+.startButtonHeader
+{
+    /* No border */
+}
 
+.menuFlower
+{
+    width:22px;
+    height:22px;
+
+    margin-right:8px;
+
+    vertical-align:middle;
+
+    object-fit:contain;
+}
 
 .outfitList
 {
@@ -420,11 +428,6 @@ body
 .browseButton.active .browseButterfly
 {
     visibility:visible;
-}
-
-#startAgainButton
-{
-    margin-bottom:16px;
 }
 
 .boutiqueDivider
