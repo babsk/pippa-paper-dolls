@@ -1153,7 +1153,12 @@
       "description": null,
       "year": null,
       "free": false,
-      "articles": []
+      "articles": [
+        5090,
+        5002,
+        5091,
+        5092
+      ]
     },
     "1077": {
       "id": 1077,
@@ -1162,7 +1167,10 @@
       "description": null,
       "year": null,
       "free": false,
-      "articles": []
+      "articles": [
+        5093,
+        5011
+      ]
     },
     "1078": {
       "id": 1078,
@@ -1824,7 +1832,8 @@
         1075,
         1137,
         1145,
-        1041
+        1041,
+        1076
       ]
     },
     "5003": {
@@ -1930,7 +1939,8 @@
         1083,
         1089,
         1097,
-        1094
+        1094,
+        1077
       ]
     },
     "5012": {
@@ -2799,6 +2809,50 @@
       "outfits": [
         1094
       ]
+    },
+    "5090": {
+      "id": 5090,
+      "name": "Flower Girl Dress",
+      "category": 1,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1076
+      ]
+    },
+    "5091": {
+      "id": 5091,
+      "name": "Flower Girl Jacket",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1076
+      ]
+    },
+    "5092": {
+      "id": 5092,
+      "name": "Flower Girl Scarf",
+      "category": 7,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1076
+      ]
+    },
+    "5093": {
+      "id": 5093,
+      "name": "Lounge Suit",
+      "category": 1,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1077
+      ]
     }
   },
   "categories": {
@@ -2818,7 +2872,9 @@
         5030,
         5048,
         5052,
-        5074
+        5074,
+        5090,
+        5093
       ]
     },
     "2": {
@@ -2887,7 +2943,8 @@
         5069,
         5077,
         5083,
-        5089
+        5089,
+        5091
       ]
     },
     "5": {
@@ -2947,7 +3004,8 @@
         5044,
         5054,
         5078,
-        5086
+        5086,
+        5092
       ]
     },
     "8": {
