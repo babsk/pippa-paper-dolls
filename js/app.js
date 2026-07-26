@@ -287,10 +287,7 @@ function buildOutfitList(collection, outfitList)
 
         row.appendChild(button);
 
-        if (debugVersion)
-        {
-                row.appendChild(infoButton);
-        }
+        row.appendChild(infoButton);
 
         outfitList.appendChild(row);
     }
@@ -627,39 +624,37 @@ function showOutfitInfo(outfitId)
     const collection =
         document.getElementById("catalogueCollection");
 
-    loadCatalogueImage(outfitId);
+    loadCatalogueImage(outfit);
 
+    title.textContent = outfit.name;
 
-    title.textContent =
-        outfit.name;
-
-
-    collection.textContent =
-        collectionName;
-
-    const credit =
-        document.getElementById("catalogueCredit");
-
-    credit.textContent = "";
-
-    if (outfit.description)
-    {
-        credit.textContent = outfit.description;
-    }
+    collection.textContent = collectionName;
 
     document
         .getElementById("outfitInfoPopup")
         .style.display = "block";
 }
 
-function loadCatalogueImage(outfitId)
+function loadCatalogueImage(outfit)
 {
     const img = new Image();
 
     img.onload = function ()
     {
         document.getElementById("catalogueImageContainer").innerHTML =
-            `<img src="assets/boxes/${outfitId}.png">`;
+            `<img src="assets/boxes/${outfit.id}.png">`;
+
+        const credit = document.getElementById("catalogueCredit");
+
+        if (outfit.description)
+        {
+            credit.textContent = outfit.description;
+            credit.style.display = "block";
+        }
+        else
+        {
+            credit.style.display = "none";
+        }
     };
 
     img.onerror = function ()
@@ -668,7 +663,9 @@ function loadCatalogueImage(outfitId)
         // Show placeholder for now.
         document.getElementById("catalogueImageContainer").innerHTML =
             "<p>Could you help by providing a scanned box image please? Your name will appear with the image. </p>";
+
+        document.getElementById("catalogueCredit").style.display = "none";
     };
 
-    img.src = `assets/boxes/${outfitId}.png`;
+    img.src = `assets/boxes/${outfit.id}.png`;
 }
