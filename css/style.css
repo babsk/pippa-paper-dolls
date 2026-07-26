@@ -606,9 +606,9 @@ body
 
 #catalogueTitle
 {
-    font-family:"Pippa", serif;
+    font-family: serif;
 
-    font-size:1.5rem;
+    font-size:1.2rem;
 
     margin-bottom:8px;
 }
@@ -619,6 +619,23 @@ body
     font-size:1rem;
 
     letter-spacing:1px;
+}
+
+#catalogueCredit
+{
+    margin-top:20px;
+
+    padding-top:10px;
+
+    border-top:1px solid rgba(80,60,30,.15);
+
+    font-size:.8rem;
+
+    font-style:italic;
+
+    color:#7a6d54;
+
+    line-height:1.4;
 }
 
 .outfitRow

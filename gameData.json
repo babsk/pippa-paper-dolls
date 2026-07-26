@@ -518,7 +518,7 @@
       "id": 1013,
       "name": "Evening Special",
       "collection": 1,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes",
       "year": null,
       "free": true,
       "articles": [
@@ -559,7 +559,7 @@
       "id": 1016,
       "name": "Walk in the Park",
       "collection": 1,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes",
       "year": null,
       "free": true,
       "articles": [
@@ -1726,7 +1726,7 @@
       "id": 1138,
       "name": "Britt 1st Issue",
       "collection": 27,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": 1973,
       "free": true,
       "articles": [
@@ -1740,7 +1740,7 @@
       "id": 1139,
       "name": "Tammie 1st Issue",
       "collection": 27,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": 1972,
       "free": true,
       "articles": []
@@ -1767,7 +1767,7 @@
       "id": 1142,
       "name": "Jasmine",
       "collection": 27,
-      "description": null,
+      "description": "Image courtesy of www.crazydaisydolls.com",
       "year": 1977,
       "free": false,
       "articles": []
@@ -1794,7 +1794,7 @@
       "id": 1145,
       "name": "Marie 1st Issue",
       "collection": 27,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": 1972,
       "free": false,
       "articles": [

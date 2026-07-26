@@ -1,3 +1,5 @@
+let debugVersion = false;
+
 let gameData = null;
 let browseMode = "collection";
 
@@ -70,15 +72,15 @@ function buildDollSelector()
     header.className =
         "dollSelectorHeader";
 
-header.innerHTML =
-`
-    <div class="collectionName">
-        <img class="flowerIcon ${dollSelectorOpen ? "open" : ""}"
-             src="assets/flower.png"
-             alt="">
-        Dolls
-    </div>
-`;
+    header.innerHTML =
+        `
+            <div class="collectionName">
+                <img class="flowerIcon ${dollSelectorOpen ? "open" : ""}"
+                     src="assets/flower.png"
+                     alt="">
+                Dolls
+            </div>
+        `;
 
     const doll = Dolls[currentDoll];
 
@@ -88,9 +90,7 @@ header.innerHTML =
 
     header.addEventListener("click", () =>
     {
-        dollSelectorOpen =
-            !dollSelectorOpen;
-
+        dollSelectorOpen = !dollSelectorOpen;
 
         buildDollSelector();
     });
@@ -118,8 +118,7 @@ header.innerHTML =
         {
             currentDoll = doll.id;
 
-            Scene.doll =
-                "assets/dolls/" + Dolls[currentDoll].name.toLowerCase() + ".png";
+            Scene.doll = "assets/dolls/" + Dolls[currentDoll].name.toLowerCase() + ".png";
 
             Scene.hand = "assets/dolls/hand_" + Dolls[currentDoll].hand + ".png";
 
@@ -243,39 +242,36 @@ function buildOutfitList(collection, outfitList)
         if (!outfit)
             continue;
 
-const row =
-    document.createElement("div");
+        const row =
+            document.createElement("div");
 
-row.className =
-    "outfitRow";
+        row.className =
+            "outfitRow";
 
+        const button =
+            document.createElement("button");
 
-const button =
-    document.createElement("button");
+        button.className =
+            "outfitButton";
 
-button.className =
-    "outfitButton";
+        button.textContent =
+            outfit.name;
 
-button.textContent =
-    outfit.name;
+        const infoButton =
+            document.createElement("button");
 
+        infoButton.className =
+            "infoButton";
 
-const infoButton =
-    document.createElement("button");
+        infoButton.textContent =
+            "🌸";
 
-infoButton.className =
-    "infoButton";
+        infoButton.addEventListener("click", (event) =>
+        {
+            event.stopPropagation();
 
-infoButton.textContent =
-    "🌸";
-
-
-infoButton.addEventListener("click", (event) =>
-{
-    event.stopPropagation();
-
-    showOutfitInfo(outfit.id);
-});
+            showOutfitInfo(outfit.id);
+        });
 
         if (outfit.articles.length === 0)
         {
@@ -289,13 +285,14 @@ infoButton.addEventListener("click", (event) =>
             closePanels();
         });
 
- //       outfitList.appendChild(button);
+        row.appendChild(button);
 
-row.appendChild(button);
+        if (debugVersion)
+        {
+                row.appendChild(infoButton);
+        }
 
-row.appendChild(infoButton);
-
-outfitList.appendChild(row);
+        outfitList.appendChild(row);
     }
 
 }
@@ -640,6 +637,15 @@ function showOutfitInfo(outfitId)
     collection.textContent =
         collectionName;
 
+    const credit =
+        document.getElementById("catalogueCredit");
+
+    credit.textContent = "";
+
+    if (outfit.description)
+    {
+        credit.textContent = outfit.description;
+    }
 
     document
         .getElementById("outfitInfoPopup")
