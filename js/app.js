@@ -119,7 +119,7 @@ header.innerHTML =
             currentDoll = doll.id;
 
             Scene.doll =
-                "assets/dolls/" + Dolls[currentDoll].name + ".png";
+                "assets/dolls/" + Dolls[currentDoll].name.toLowerCase() + ".png";
 
             Scene.hand = "assets/dolls/hand_" + Dolls[currentDoll].hand + ".png";
 
@@ -243,11 +243,39 @@ function buildOutfitList(collection, outfitList)
         if (!outfit)
             continue;
 
-        const button = document.createElement("button");
+const row =
+    document.createElement("div");
 
-        button.className = "outfitButton";
+row.className =
+    "outfitRow";
 
-        button.textContent = outfit.name;
+
+const button =
+    document.createElement("button");
+
+button.className =
+    "outfitButton";
+
+button.textContent =
+    outfit.name;
+
+
+const infoButton =
+    document.createElement("button");
+
+infoButton.className =
+    "infoButton";
+
+infoButton.textContent =
+    "🌸";
+
+
+infoButton.addEventListener("click", (event) =>
+{
+    event.stopPropagation();
+
+    showOutfitInfo(outfit.id);
+});
 
         if (outfit.articles.length === 0)
         {
@@ -261,7 +289,13 @@ function buildOutfitList(collection, outfitList)
             closePanels();
         });
 
-        outfitList.appendChild(button);
+ //       outfitList.appendChild(button);
+
+row.appendChild(button);
+
+row.appendChild(infoButton);
+
+outfitList.appendChild(row);
     }
 
 }
@@ -338,6 +372,15 @@ document
     buildWardrobeMenu();
 });
 
+
+document
+    .getElementById("closeOutfitInfo")
+    .addEventListener("click", () =>
+    {
+        document
+            .getElementById("outfitInfoPopup")
+            .style.display = "none";
+    });
 
 function buildGarmentMenu()
 {
@@ -557,3 +600,69 @@ function createDisplayCategory(
     container.appendChild(categoryEntry);
 }
 
+
+function showOutfitInfo(outfitId)
+{
+    const outfit = gameData.outfits[outfitId];
+
+    if (!outfit)
+        return;
+
+
+    let collectionName = "";
+
+    for (const collection of Object.values(gameData.collections))
+    {
+        if (collection.outfits.includes(outfitId))
+        {
+            collectionName = collection.name;
+            break;
+        }
+    }
+
+
+    const imageContainer =
+        document.getElementById("catalogueImageContainer");
+
+    const title =
+        document.getElementById("catalogueTitle");
+
+    const collection =
+        document.getElementById("catalogueCollection");
+
+    loadCatalogueImage(outfitId);
+
+
+    title.textContent =
+        outfit.name;
+
+
+    collection.textContent =
+        collectionName;
+
+
+    document
+        .getElementById("outfitInfoPopup")
+        .style.display = "block";
+}
+
+function loadCatalogueImage(outfitId)
+{
+    const img = new Image();
+
+    img.onload = function ()
+    {
+        document.getElementById("catalogueImageContainer").innerHTML =
+            `<img src="assets/boxes/${outfitId}.png">`;
+    };
+
+    img.onerror = function ()
+    {
+        // No scan available.
+        // Show placeholder for now.
+        document.getElementById("catalogueImageContainer").innerHTML =
+            "<p>Preview coming soon</p>";
+    };
+
+    img.src = `assets/boxes/${outfitId}.png`;
+}

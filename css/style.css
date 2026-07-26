@@ -515,3 +515,128 @@ body
 {
     background:#e9e8cd;
 }
+
+
+#outfitInfoPopup
+{
+    display:none;
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.25);
+
+    z-index:2000;
+}
+
+#catalogueCard
+{
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    width:320px;
+
+    background:#ece8df;
+
+    padding:25px;
+
+    box-sizing:border-box;
+
+    border:
+        1px solid rgba(80,60,30,.4);
+
+    text-align:center;
+
+    color:#57492f;
+
+    font-family:
+        "Palatino Linotype",
+        Georgia,
+        serif;
+}
+
+#closeOutfitInfo
+{
+    position:absolute;
+
+    top:8px;
+    right:8px;
+
+    border:none;
+
+    background:none;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    color:#57492f;
+}
+
+#catalogueImageContainer
+{
+    min-height:200px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+}
+
+
+#catalogueImageContainer img
+{
+    max-width:100%;
+}
+
+
+#catalogueDivider
+{
+    margin:12px 0;
+
+    font-size:18px;
+}
+
+
+#catalogueTitle
+{
+    font-family:"Pippa", serif;
+
+    font-size:1.5rem;
+
+    margin-bottom:8px;
+}
+
+
+#catalogueCollection
+{
+    font-size:1rem;
+
+    letter-spacing:1px;
+}
+
+.outfitRow
+{
+    display:flex;
+    align-items:center;
+}
+
+
+.outfitButton
+{
+    flex:1;
+}
+
+
+.infoButton
+{
+    border:none;
+    background:none;
+    cursor:pointer;
+}

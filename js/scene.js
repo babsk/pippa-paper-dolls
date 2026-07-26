@@ -35,7 +35,6 @@ function clearScene()
     {
         Scene[key]=null;    
     }
-    Scene.doll =  "assets/dolls/" + Dolls[currentDoll].name + ".png";
-    console.log("hand is " + Dolls[currentDoll].hand);
+    Scene.doll =  "assets/dolls/" + Dolls[currentDoll].name.toLowerCase() + ".png";
     Scene.hand = "assets/dolls/hand_" + Dolls[currentDoll].hand + ".png";
 }
