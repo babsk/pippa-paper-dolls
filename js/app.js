@@ -1,4 +1,4 @@
-let debugVersion = false;
+let debugVersion = true;
 
 let gameData = null;
 let browseMode = "collection";
@@ -667,7 +667,7 @@ function loadCatalogueImage(outfitId)
         // No scan available.
         // Show placeholder for now.
         document.getElementById("catalogueImageContainer").innerHTML =
-            "<p>Preview coming soon</p>";
+            "<p>Could you help by providing a scanned box image please? Your name will appear with the image. </p>";
     };
 
     img.src = `assets/boxes/${outfitId}.png`;

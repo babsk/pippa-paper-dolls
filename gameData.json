@@ -379,7 +379,7 @@
       "id": 1002,
       "name": "Lacy Luxury",
       "collection": 3,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": true,
       "articles": [
@@ -406,7 +406,7 @@
       "id": 1004,
       "name": "A Walk In The Park",
       "collection": 3,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": true,
       "articles": [
@@ -419,7 +419,7 @@
       "id": 1005,
       "name": "Purple Delight",
       "collection": 3,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": true,
       "articles": [
@@ -518,7 +518,7 @@
       "id": 1013,
       "name": "Evening Special",
       "collection": 1,
-      "description": "Image courtesy of Elaine Hughes",
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": true,
       "articles": [
@@ -545,7 +545,7 @@
       "id": 1015,
       "name": "Disco Dolly",
       "collection": 1,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": true,
       "articles": [
@@ -559,7 +559,7 @@
       "id": 1016,
       "name": "Walk in the Park",
       "collection": 1,
-      "description": "Image courtesy of Elaine Hughes",
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": true,
       "articles": [
@@ -586,7 +586,7 @@
       "id": 1018,
       "name": "Winter Sunday",
       "collection": 1,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": true,
       "articles": [
@@ -902,7 +902,7 @@
       "id": 1051,
       "name": "Orange Blossom",
       "collection": 8,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": true,
       "articles": []
@@ -942,7 +942,7 @@
       "id": 1055,
       "name": "Fun Fur",
       "collection": 9,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -967,9 +967,9 @@
     },
     "1058": {
       "id": 1058,
-      "name": "1st Date",
+      "name": "First Night",
       "collection": 9,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -978,7 +978,7 @@
       "id": 1059,
       "name": "Sweet Dreams",
       "collection": 9,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1005,7 +1005,7 @@
       "id": 1062,
       "name": "Vondel Park",
       "collection": 10,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1014,7 +1014,7 @@
       "id": 1063,
       "name": "Damsquare Idler",
       "collection": 10,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1068,7 +1068,7 @@
       "id": 1069,
       "name": "Two for One",
       "collection": 20,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1077,7 +1077,7 @@
       "id": 1070,
       "name": "Saturday Shopper",
       "collection": 20,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1136,7 +1136,7 @@
       "id": 1075,
       "name": "Denim Delight",
       "collection": 12,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": [
@@ -1150,7 +1150,7 @@
       "id": 1076,
       "name": "Flower Girl",
       "collection": 12,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": [
@@ -1164,7 +1164,7 @@
       "id": 1077,
       "name": "Lounge Suit",
       "collection": 12,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": [
@@ -1176,7 +1176,7 @@
       "id": 1078,
       "name": "Sterling Silver",
       "collection": 12,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1185,7 +1185,7 @@
       "id": 1079,
       "name": "Rainy Day",
       "collection": 12,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1194,7 +1194,7 @@
       "id": 1080,
       "name": "Leisure Set",
       "collection": 12,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1240,9 +1240,9 @@
     },
     "1087": {
       "id": 1087,
-      "name": "Candy Cutie",
+      "name": "Candie Cutie",
       "collection": 21,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1272,7 +1272,7 @@
       "id": 1090,
       "name": "Tally Ho",
       "collection": 28,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": [
@@ -1313,7 +1313,7 @@
       "id": 1094,
       "name": "Hot Pants",
       "collection": 13,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": [
@@ -1506,7 +1506,7 @@
       "id": 1114,
       "name": "Pink Champagne",
       "collection": 18,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1515,7 +1515,7 @@
       "id": 1115,
       "name": "Hello Dolly",
       "collection": 18,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1524,7 +1524,7 @@
       "id": 1116,
       "name": "Lovely Lace",
       "collection": 18,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1533,16 +1533,16 @@
       "id": 1117,
       "name": "In The Pink",
       "collection": 18,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
     },
     "1118": {
       "id": 1118,
-      "name": "Vienna 6",
+      "name": "Masquerade",
       "collection": 18,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1713,7 +1713,7 @@
       "id": 1137,
       "name": "Pippa 1st Issue",
       "collection": 27,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": 1972,
       "free": true,
       "articles": [
