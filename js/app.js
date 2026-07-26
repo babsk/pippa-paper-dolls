@@ -55,43 +55,42 @@ function buildDollSelector()
             ? "collectionEntry open"
             : "collectionEntry";
 
-const current =
-    document.createElement("div");
+    const current =
+        document.createElement("div");
 
-current.className =
-    "currentDoll";
+    current.className =
+        "currentDoll";
 
-current.textContent =
-    Dolls[currentDoll].name;
+    current.textContent =
+        Dolls[currentDoll].name;
 
+    const header =
+        document.createElement("div");
 
-const header =
-    document.createElement("div");
-
-header.className =
-    "dollSelectorHeader";
+    header.className =
+        "dollSelectorHeader";
 
 header.innerHTML =
 `
     <div class="collectionName">
-        ${dollSelectorOpen ? "▼" : "▶"} Choose your Pippa
+        <img class="flowerIcon ${dollSelectorOpen ? "open" : ""}"
+             src="assets/flower.png"
+             alt="">
+        Dolls
     </div>
 `;
 
-
     const doll = Dolls[currentDoll];
 
-    const list =
-        document.createElement("div");
+    const list = document.createElement("div");
 
-    list.className =
-        "outfitList";
-
+    list.className = "outfitList";
 
     header.addEventListener("click", () =>
     {
         dollSelectorOpen =
             !dollSelectorOpen;
+
 
         buildDollSelector();
     });

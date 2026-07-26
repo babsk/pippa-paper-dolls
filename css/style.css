@@ -11,7 +11,16 @@ body
         serif;
 }
 
+@font-face
+{
+    font-family: "Pippa";
 
+    src: url("../assets/fonts/Pippa.ttf") format("truetype");
+
+    font-weight: normal;
+
+    font-style: normal;
+}
 
 #app
 {
@@ -480,12 +489,9 @@ body
 {
     text-align:center;
 
-    font-family:
-        "Palatino Linotype",
-        Georgia,
-        serif;
+    font-family: "Pippa", "Palatino Linotype", Georgia, serif;
 
-    font-size:1.1rem;
+    font-size:3.0rem;
 
     letter-spacing:1px;
 
