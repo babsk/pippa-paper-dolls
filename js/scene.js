@@ -30,13 +30,12 @@ const Scene = {
 
 function clearScene()
 {
+    console.log("clearScene");
     for(const key in Scene)
     {
         Scene[key]=null;    
     }
-    Scene.doll = "assets/dolls/emma.png";
-    Scene.hand = "assets/dolls/hand_pale.png";
+    Scene.doll =  "assets/dolls/" + Dolls[currentDoll].name + ".png";
+    console.log("hand is " + Dolls[currentDoll].hand);
+    Scene.hand = "assets/dolls/hand_" + Dolls[currentDoll].hand + ".png";
 }
-
-Scene.doll = "assets/dolls/emma.png";
-Scene.hand = "assets/dolls/hand_pale.png";

@@ -474,3 +474,38 @@ body
 
     margin-bottom:8px;
 }
+
+
+.currentDoll
+{
+    text-align:center;
+
+    font-family:
+        "Palatino Linotype",
+        Georgia,
+        serif;
+
+    font-size:1.1rem;
+
+    letter-spacing:1px;
+
+    color:#57492f;
+
+    padding:8px 12px;
+}
+
+
+.dollSelectorHeader
+{
+    padding:12px;
+
+    color:#57492f;
+
+    cursor:pointer;
+}
+
+
+.dollSelectorHeader:hover
+{
+    background:#e9e8cd;
+}

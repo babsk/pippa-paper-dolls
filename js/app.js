@@ -1,6 +1,18 @@
 let gameData = null;
 let browseMode = "collection";
 
+let currentDoll = 1;
+let dollSelectorOpen = false;
+
+const Dolls = {
+
+    "1": { id:1, name:"Pippa", hand:"pale" },
+    "2": { id:2, name:"Emma",  hand:"pale" },
+    "3": { id:3, name:"Marie", hand:"dark" },
+    "4": { id:4, name:"Tammie", hand:"pale" },
+    "5": { id:5, name:"Britt", hand:"dark" }
+
+};
 
 window.onload = async () =>
 {
@@ -22,6 +34,111 @@ async function loadGameData()
     const response = await fetch("gameData.json");
 
     gameData = await response.json();
+
+    clearScene();
+
+    buildDollSelector();
+}
+
+function buildDollSelector()
+{
+    const container =
+        document.getElementById("dollSelector");
+
+    container.innerHTML = "";
+
+    const entry =
+        document.createElement("div");
+
+    entry.className =
+        dollSelectorOpen
+            ? "collectionEntry open"
+            : "collectionEntry";
+
+const current =
+    document.createElement("div");
+
+current.className =
+    "currentDoll";
+
+current.textContent =
+    Dolls[currentDoll].name;
+
+
+const header =
+    document.createElement("div");
+
+header.className =
+    "dollSelectorHeader";
+
+header.innerHTML =
+`
+    <div class="collectionName">
+        ${dollSelectorOpen ? "▼" : "▶"} Choose your Pippa
+    </div>
+`;
+
+
+    const doll = Dolls[currentDoll];
+
+    const list =
+        document.createElement("div");
+
+    list.className =
+        "outfitList";
+
+
+    header.addEventListener("click", () =>
+    {
+        dollSelectorOpen =
+            !dollSelectorOpen;
+
+        buildDollSelector();
+    });
+
+
+    for (const doll of Object.values(Dolls))
+    {
+        const button =
+            document.createElement("button");
+
+        button.className =
+            "outfitButton";
+
+        button.textContent =
+            doll.name;
+
+
+        if (doll.id === currentDoll)
+        {
+            button.disabled = true;
+        }
+
+
+        button.addEventListener("click", () =>
+        {
+            currentDoll = doll.id;
+
+            Scene.doll =
+                "assets/dolls/" + Dolls[currentDoll].name + ".png";
+
+            Scene.hand = "assets/dolls/hand_" + Dolls[currentDoll].hand + ".png";
+
+            renderScene();
+
+            buildDollSelector();
+        });
+
+
+        list.appendChild(button);
+    }
+
+
+    entry.appendChild(current);
+    entry.appendChild(header);
+    entry.appendChild(list);
+
+    container.appendChild(entry);
 }
 
 function buildCollectionMenu()
