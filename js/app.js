@@ -159,49 +159,62 @@ function buildCollectionMenu()
 
         collectionHeader.className = "menuHeader collectionHeader";
 
-        collectionHeader.innerHTML =
-                `
-                        <div class="collectionName">
-                            <img class="flowerIcon" src="assets/flower.png">
-                            ${collection.name}
-                        </div>
+collectionHeader.innerHTML =
+`
+    <div class="collectionLeft">
 
-                        <div class="collectionYear">
-                            ${collection.year !== null ? collection.year : ""}
-                        </div>
-                `;
+        <div class="collectionName">
+            <img class="flowerIcon"
+                 src="assets/flower.png">
+
+            ${collection.name}
+        </div>
+
+        <div class="collectionYear">
+            ${collection.year !== null ? collection.year : ""}
+        </div>
+
+    </div>
+
+    <button class="catalogueButton">
+        <img src="assets/flower.png" alt="">
+    </button>
+`;
+
+const flowerIcon =
+    collectionHeader.querySelector(".flowerIcon");
+
+const catalogueButton =
+    collectionHeader.querySelector(".catalogueButton");
+
+catalogueButton.addEventListener("click", (event) =>
+{
+    event.stopPropagation();
+
+    showCollectionInfo(collection.id);
+});
 
         const outfitList = document.createElement("div");
 
         outfitList.className = "outfitList";
 
-        collectionHeader.addEventListener("click", () =>
-        {
+collectionHeader.addEventListener("click", () =>
+{
+    const isOpen =
+        collectionEntry.classList.toggle("open");
 
-            const isOpen = collectionEntry.classList.toggle("open");
+    flowerIcon.classList.toggle("open", isOpen);
 
-            collectionHeader.innerHTML =
-                `
-                        <div class="collectionName">
-                            <img class="flowerIcon ${isOpen ? "open" : ""}" 
-                                 src="assets/flower.png">
-                                    ${collection.name}
-                        </div>
+    if (isOpen && outfitList.children.length === 0)
+    {
+        buildOutfitList(
+            collection,
+            outfitList
+        );
+    }
+});
 
-                        <div class="collectionYear">
-                            ${collection.year !== null ? collection.year : ""}
-                        </div>
-                `;
 
-            if (isOpen && outfitList.children.length === 0)
-            {
-                buildOutfitList(
-                    collection,
-                    outfitList
-                );
-            }
-
-        });
 
         collectionEntry.appendChild(collectionHeader);
 
@@ -594,6 +607,28 @@ function createDisplayCategory(
     container.appendChild(categoryEntry);
 }
 
+function showCollectionInfo(collectionId)
+{
+    const collection =
+        gameData.collections[collectionId];
+
+    if (!collection)
+        return;
+
+    document.getElementById("catalogueTitle").textContent =
+        collection.name;
+
+    document.getElementById("catalogueCollection").textContent =
+        collection.year ?? "";
+
+    document.getElementById("catalogueCredit").style.display =
+        "none";
+
+    loadCollectionImage(collection);
+
+    document.getElementById("outfitInfoPopup").style.display =
+        "block";
+}
 
 function showOutfitInfo(outfitId)
 {
@@ -633,6 +668,26 @@ function showOutfitInfo(outfitId)
     document
         .getElementById("outfitInfoPopup")
         .style.display = "block";
+}
+
+function loadCollectionImage(collection)
+{
+    const img = new Image();
+
+    img.onload = function ()
+    {
+        document.getElementById("catalogueImageContainer").innerHTML =
+            `<img src="assets/collections/${collection.id}.png">`;
+    };
+
+    img.onerror = function ()
+    {
+        document.getElementById("catalogueImageContainer").innerHTML =
+            "<p>Collection image coming soon</p>";
+    };
+
+    img.src =
+        `assets/collections/${collection.id}.png`;
 }
 
 function loadCatalogueImage(outfit)
