@@ -662,7 +662,7 @@ function loadCatalogueImage(outfit)
         // No scan available.
         // Show placeholder for now.
         document.getElementById("catalogueImageContainer").innerHTML =
-            "<p>Could you help by providing a scanned box image please? Your name will appear with the image. </p>";
+            "<p><b>Scanned Box Image</b><br><br>I find this a very useful feature. I am using images I have found online for my personal use only and do not have permission to upload them here.<br><br>Could you help by providing a scanned box image please? Your name will appear with the image. </p>";
 
         document.getElementById("catalogueCredit").style.display = "none";
     };

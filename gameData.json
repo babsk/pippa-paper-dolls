@@ -347,7 +347,12 @@
         1142,
         1143,
         1144,
-        1145
+        1145,
+        1146,
+        1147,
+        1148,
+        1149,
+        1150
       ]
     },
     "28": {
@@ -365,7 +370,7 @@
       "id": 1001,
       "name": "Guitar Girl",
       "collection": 3,
-      "description": null,
+      "description": "Image courtesy of invaluable.com",
       "year": null,
       "free": true,
       "articles": [
@@ -393,7 +398,7 @@
       "id": 1003,
       "name": "Trowser Wowser",
       "collection": 3,
-      "description": null,
+      "description": "Image courtesy of ebay potty-about-pippa",
       "year": null,
       "free": true,
       "articles": [
@@ -431,7 +436,7 @@
       "id": 1006,
       "name": "Chocolate Orange",
       "collection": 3,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": true,
       "articles": [
@@ -504,7 +509,7 @@
       "id": 1012,
       "name": "Champs-Élysées",
       "collection": 11,
-      "description": null,
+      "description": "Image not yet here",
       "year": null,
       "free": true,
       "articles": [
@@ -572,7 +577,7 @@
       "id": 1017,
       "name": "Bowling Beauty",
       "collection": 1,
-      "description": null,
+      "description": "Unknown Owner",
       "year": null,
       "free": true,
       "articles": [
@@ -598,7 +603,7 @@
       "id": 1019,
       "name": "Monaco 1",
       "collection": 2,
-      "description": null,
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
       "free": false,
       "articles": []
@@ -607,7 +612,7 @@
       "id": 1020,
       "name": "Monaco 2",
       "collection": 2,
-      "description": null,
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
       "free": false,
       "articles": []
@@ -616,7 +621,7 @@
       "id": 1021,
       "name": "Monaco 3",
       "collection": 2,
-      "description": null,
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
       "free": false,
       "articles": []
@@ -625,7 +630,7 @@
       "id": 1022,
       "name": "Monaco 4",
       "collection": 2,
-      "description": "Blue & White. Trousers & hoodie with pompoms.",
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
       "free": false,
       "articles": [
@@ -636,7 +641,7 @@
       "id": 1023,
       "name": "Monaco 5",
       "collection": 2,
-      "description": null,
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
       "free": false,
       "articles": []
@@ -645,7 +650,7 @@
       "id": 1024,
       "name": "Monaco 6",
       "collection": 2,
-      "description": null,
+      "description": "Image from Pinterest (Adriana Perez)",
       "year": null,
       "free": false,
       "articles": []
@@ -708,7 +713,7 @@
       "id": 1031,
       "name": "Oriental 1",
       "collection": 5,
-      "description": null,
+      "description": "",
       "year": null,
       "free": false,
       "articles": [
@@ -723,7 +728,7 @@
       "id": 1032,
       "name": "Oriental 2",
       "collection": 5,
-      "description": null,
+      "description": "Image courtesy of ebay potty-about-pippa",
       "year": null,
       "free": false,
       "articles": []
@@ -732,7 +737,7 @@
       "id": 1033,
       "name": "Oriental 3",
       "collection": 5,
-      "description": null,
+      "description": "Image courtesy of ebay potty-about-pippa",
       "year": null,
       "free": false,
       "articles": []
@@ -741,7 +746,7 @@
       "id": 1034,
       "name": "Oriental 4",
       "collection": 5,
-      "description": null,
+      "description": "Image courtesy of ebay potty-about-pippa",
       "year": null,
       "free": false,
       "articles": []
@@ -750,7 +755,7 @@
       "id": 1035,
       "name": "Oriental 5",
       "collection": 5,
-      "description": null,
+      "description": "Image courtesy of ebay potty-about-pippa",
       "year": null,
       "free": false,
       "articles": []
@@ -884,7 +889,7 @@
       "id": 1049,
       "name": "Fringes",
       "collection": 8,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": true,
       "articles": []
@@ -893,7 +898,7 @@
       "id": 1050,
       "name": "Record Time",
       "collection": 8,
-      "description": null,
+      "description": "Image source unknown",
       "year": null,
       "free": true,
       "articles": []
@@ -911,7 +916,7 @@
       "id": 1052,
       "name": "Go Go Green",
       "collection": 8,
-      "description": null,
+      "description": "Image source unknown",
       "year": null,
       "free": true,
       "articles": [
@@ -924,7 +929,7 @@
       "id": 1053,
       "name": "Checkmate",
       "collection": 8,
-      "description": null,
+      "description": "Image courtesy Elaine Hughes (facebook)",
       "year": null,
       "free": true,
       "articles": []
@@ -933,7 +938,7 @@
       "id": 1054,
       "name": "Midnight Velvet",
       "collection": 8,
-      "description": null,
+      "description": "Image courtesy Elaine Hughes (facebook)",
       "year": null,
       "free": true,
       "articles": []
@@ -987,7 +992,7 @@
       "id": 1060,
       "name": "Autumn Suit",
       "collection": 9,
-      "description": null,
+      "description": "Image courtesy of invaluable.com",
       "year": null,
       "free": false,
       "articles": []
@@ -1050,7 +1055,7 @@
       "id": 1067,
       "name": "Late Night Special",
       "collection": 20,
-      "description": null,
+      "description": "Image courtesy of crazydaisydolls",
       "year": null,
       "free": false,
       "articles": []
@@ -1059,7 +1064,7 @@
       "id": 1068,
       "name": "Orange Saturday",
       "collection": 20,
-      "description": null,
+      "description": "Image courtesy of crazydaisydolls",
       "year": null,
       "free": false,
       "articles": []
@@ -1086,7 +1091,7 @@
       "id": 1071,
       "name": "Queen of Hearts",
       "collection": 20,
-      "description": null,
+      "description": "Image courtesy of HobbyDB",
       "year": null,
       "free": false,
       "articles": [
@@ -1100,7 +1105,7 @@
       "id": 1072,
       "name": "Flamenco",
       "collection": 20,
-      "description": null,
+      "description": "Image courtesy of HobbyDB",
       "year": null,
       "free": false,
       "articles": []
@@ -1203,7 +1208,7 @@
       "id": 1083,
       "name": "Hats Off",
       "collection": 21,
-      "description": null,
+      "description": "Image courtesy of Lesley Carter (facebook)",
       "year": null,
       "free": false,
       "articles": [
@@ -1215,7 +1220,7 @@
       "id": 1084,
       "name": "Glimmering Stardust",
       "collection": 21,
-      "description": null,
+      "description": "AKA Golden Cascade, Image courtesy of Elaine Hughes",
       "year": null,
       "free": false,
       "articles": []
@@ -1224,7 +1229,7 @@
       "id": 1085,
       "name": "Snow Princess",
       "collection": 21,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (Variations)",
       "year": null,
       "free": false,
       "articles": []
@@ -1233,7 +1238,7 @@
       "id": 1086,
       "name": "Swinging Strings",
       "collection": 21,
-      "description": "Variations",
+      "description": "Image courtesy of Elaine Hughes (Variations)",
       "year": null,
       "free": false,
       "articles": []
@@ -1249,9 +1254,9 @@
     },
     "1088": {
       "id": 1088,
-      "name": "Rio 6",
+      "name": "Pink Champagne",
       "collection": 21,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes",
       "year": null,
       "free": false,
       "articles": []
@@ -1260,7 +1265,7 @@
       "id": 1089,
       "name": "Daisy Chain",
       "collection": 18,
-      "description": null,
+      "description": "Image courtesy of HobbyDB",
       "year": null,
       "free": false,
       "articles": [
@@ -1286,7 +1291,7 @@
       "id": 1091,
       "name": "Happy Wanderer",
       "collection": 13,
-      "description": null,
+      "description": "Image AI generated using Vectis Auctions and ebay bramble_cottage images",
       "year": null,
       "free": false,
       "articles": []
@@ -1295,7 +1300,7 @@
       "id": 1092,
       "name": "Leather Look",
       "collection": 13,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
       "free": false,
       "articles": []
@@ -1325,18 +1330,18 @@
     },
     "1095": {
       "id": 1095,
-      "name": "New York 5",
+      "name": "Spring Flowers",
       "collection": 13,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
       "free": false,
       "articles": []
     },
     "1096": {
       "id": 1096,
-      "name": "New York 6",
+      "name": "Pretty Pinafore",
       "collection": 13,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
       "free": false,
       "articles": []
@@ -1470,7 +1475,7 @@
       "id": 1110,
       "name": "Nurse",
       "collection": 16,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes",
       "year": null,
       "free": false,
       "articles": []
@@ -1747,10 +1752,10 @@
     },
     "1140": {
       "id": 1140,
-      "name": "Penny 1st Issue",
+      "name": "Penny Red",
       "collection": 27,
-      "description": null,
-      "year": 1977,
+      "description": "Image courtesy of Elaine Hughes",
+      "year": 1976,
       "free": false,
       "articles": []
     },
@@ -1785,7 +1790,7 @@
       "id": 1144,
       "name": "Mandy 1st Issue",
       "collection": 27,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes",
       "year": 1976,
       "free": false,
       "articles": []
@@ -1802,6 +1807,51 @@
         5002,
         5066
       ]
+    },
+    "1146": {
+      "id": 1146,
+      "name": "Pippa Bride",
+      "collection": 27,
+      "description": "Image courtesy of Elaine Hughes",
+      "year": 1977,
+      "free": false,
+      "articles": []
+    },
+    "1147": {
+      "id": 1147,
+      "name": "Pippa Nurse",
+      "collection": 27,
+      "description": "Image courtesy of Elaine Hughes",
+      "year": 1977,
+      "free": false,
+      "articles": []
+    },
+    "1148": {
+      "id": 1148,
+      "name": "Pippa 2nd Issue",
+      "collection": 27,
+      "description": "Image courtesy of Elaine Hughes",
+      "year": 1977,
+      "free": false,
+      "articles": []
+    },
+    "1149": {
+      "id": 1149,
+      "name": "Marie 2nd Issue",
+      "collection": 27,
+      "description": "Image courtesy of Elaine Hughes",
+      "year": 1975,
+      "free": false,
+      "articles": []
+    },
+    "1150": {
+      "id": 1150,
+      "name": "Penny Brown",
+      "collection": 27,
+      "description": "Image courtesy of Elaine Hughes",
+      "year": 1976,
+      "free": false,
+      "articles": []
     }
   },
   "articles": {
