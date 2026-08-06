@@ -255,8 +255,7 @@
         1120,
         1121,
         1122,
-        1123,
-        1124
+        1123
       ]
     },
     "20": {
@@ -372,7 +371,7 @@
       "collection": 3,
       "description": "Image courtesy of invaluable.com",
       "year": null,
-      "free": true,
+      "displayOrder": 1,
       "articles": [
         5022,
         5023,
@@ -386,7 +385,7 @@
       "collection": 3,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": true,
+      "displayOrder": 6,
       "articles": [
         5024,
         5025,
@@ -400,7 +399,7 @@
       "collection": 3,
       "description": "Image courtesy of ebay potty-about-pippa",
       "year": null,
-      "free": true,
+      "displayOrder": 2,
       "articles": [
         5027,
         5028,
@@ -409,11 +408,11 @@
     },
     "1004": {
       "id": 1004,
-      "name": "A Walk In The Park",
+      "name": "Walk In The Park",
       "collection": 3,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": true,
+      "displayOrder": 3,
       "articles": [
         5029,
         5026,
@@ -426,7 +425,7 @@
       "collection": 3,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": true,
+      "displayOrder": 4,
       "articles": [
         5030,
         5011
@@ -436,9 +435,9 @@
       "id": 1006,
       "name": "Chocolate Orange",
       "collection": 3,
-      "description": "Image courtesy of Vectis Auctions",
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": true,
+      "displayOrder": 5,
       "articles": [
         5031,
         5033,
@@ -450,9 +449,9 @@
       "id": 1007,
       "name": "Montmatre",
       "collection": 11,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": true,
+      "displayOrder": 4,
       "articles": [
         5072,
         5073
@@ -462,9 +461,9 @@
       "id": 1008,
       "name": "Fontainebleau",
       "collection": 11,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": true,
+      "displayOrder": 5,
       "articles": [
         5046,
         5047,
@@ -476,27 +475,27 @@
       "id": 1009,
       "name": "Metro",
       "collection": 11,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": true,
+      "displayOrder": 3,
       "articles": []
     },
     "1010": {
       "id": 1010,
       "name": "Pigalle",
       "collection": 11,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": true,
+      "displayOrder": 2,
       "articles": []
     },
     "1011": {
       "id": 1011,
       "name": "Indian Summer",
       "collection": 11,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": true,
+      "displayOrder": 1,
       "articles": [
         5021,
         5043,
@@ -509,9 +508,9 @@
       "id": 1012,
       "name": "Champs-Élysées",
       "collection": 11,
-      "description": "Image not yet here",
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": true,
+      "displayOrder": 6,
       "articles": [
         5021,
         5045,
@@ -525,7 +524,7 @@
       "collection": 1,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": true,
+      "displayOrder": 4,
       "articles": [
         5003,
         5004,
@@ -538,7 +537,7 @@
       "collection": 1,
       "description": null,
       "year": null,
-      "free": true,
+      "displayOrder": 2,
       "articles": [
         5001,
         5006,
@@ -552,7 +551,7 @@
       "collection": 1,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": true,
+      "displayOrder": 5,
       "articles": [
         5009,
         5010,
@@ -566,7 +565,7 @@
       "collection": 1,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": true,
+      "displayOrder": 1,
       "articles": [
         5013,
         5002,
@@ -579,7 +578,7 @@
       "collection": 1,
       "description": "Unknown Owner",
       "year": null,
-      "free": true,
+      "displayOrder": 3,
       "articles": [
         5016,
         5017,
@@ -593,7 +592,7 @@
       "collection": 1,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": true,
+      "displayOrder": 6,
       "articles": [
         5019,
         5020
@@ -605,7 +604,7 @@
       "collection": 2,
       "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": 1,
       "articles": []
     },
     "1020": {
@@ -614,7 +613,7 @@
       "collection": 2,
       "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": 2,
       "articles": []
     },
     "1021": {
@@ -623,7 +622,7 @@
       "collection": 2,
       "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": 3,
       "articles": []
     },
     "1022": {
@@ -632,7 +631,7 @@
       "collection": 2,
       "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": 4,
       "articles": [
         5001
       ]
@@ -643,79 +642,83 @@
       "collection": 2,
       "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": 5,
       "articles": []
     },
     "1024": {
       "id": 1024,
       "name": "Monaco 6",
       "collection": 2,
-      "description": "Image from Pinterest (Adriana Perez)",
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1025": {
       "id": 1025,
       "name": "Park Lane 1",
       "collection": 4,
-      "description": null,
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1026": {
       "id": 1026,
       "name": "Park Lane 2",
       "collection": 4,
-      "description": null,
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
-      "articles": []
+      "displayOrder": null,
+      "articles": [
+        5094,
+        5011,
+        5095
+      ]
     },
     "1027": {
       "id": 1027,
       "name": "Park Lane 3",
       "collection": 4,
-      "description": null,
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1028": {
       "id": 1028,
       "name": "Park Lane 4",
       "collection": 4,
-      "description": null,
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1029": {
       "id": 1029,
       "name": "Park Lane 5",
       "collection": 4,
-      "description": null,
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1030": {
       "id": 1030,
       "name": "Park Lane 6",
       "collection": 4,
-      "description": null,
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1031": {
       "id": 1031,
-      "name": "Oriental 1",
+      "name": "Oriental 4",
       "collection": 5,
-      "description": "",
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": 4,
       "articles": [
         5083,
         5084,
@@ -728,9 +731,9 @@
       "id": 1032,
       "name": "Oriental 2",
       "collection": 5,
-      "description": "Image courtesy of ebay potty-about-pippa",
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": 2,
       "articles": []
     },
     "1033": {
@@ -739,43 +742,43 @@
       "collection": 5,
       "description": "Image courtesy of ebay potty-about-pippa",
       "year": null,
-      "free": false,
+      "displayOrder": 3,
       "articles": []
     },
     "1034": {
       "id": 1034,
-      "name": "Oriental 4",
+      "name": "Oriental 1",
       "collection": 5,
-      "description": "Image courtesy of ebay potty-about-pippa",
+      "description": "Image courtesy of ebay barbiegirl1232011",
       "year": null,
-      "free": false,
+      "displayOrder": 1,
       "articles": []
     },
     "1035": {
       "id": 1035,
       "name": "Oriental 5",
       "collection": 5,
-      "description": "Image courtesy of ebay potty-about-pippa",
+      "description": "Image courtesy of Jane Hackett (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": 5,
       "articles": []
     },
     "1036": {
       "id": 1036,
       "name": "Oriental 6",
       "collection": 5,
-      "description": null,
+      "description": "Image courtesy of ebay potty-about-pippa",
       "year": null,
-      "free": false,
+      "displayOrder": 6,
       "articles": []
     },
     "1037": {
       "id": 1037,
       "name": "King's Road 1",
       "collection": 6,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": true,
+      "displayOrder": 1,
       "articles": [
         5075,
         5074
@@ -785,36 +788,36 @@
       "id": 1038,
       "name": "King's Road 2",
       "collection": 6,
-      "description": null,
+      "description": "Image courtesy Elaine Hughes (facebook)",
       "year": null,
-      "free": true,
+      "displayOrder": 2,
       "articles": []
     },
     "1039": {
       "id": 1039,
       "name": "King's Road 3",
       "collection": 6,
-      "description": null,
+      "description": "Image courtesy Elaine Hughes (facebook)",
       "year": null,
-      "free": true,
+      "displayOrder": 3,
       "articles": []
     },
     "1040": {
       "id": 1040,
       "name": "King's Road 4",
       "collection": 6,
-      "description": null,
+      "description": "Image courtesy Elaine Hughes (facebook)",
       "year": null,
-      "free": true,
+      "displayOrder": 4,
       "articles": []
     },
     "1041": {
       "id": 1041,
       "name": "King's Road 5",
       "collection": 6,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": true,
+      "displayOrder": 5,
       "articles": [
         5076,
         5077,
@@ -826,9 +829,9 @@
       "id": 1042,
       "name": "King's Road 6",
       "collection": 6,
-      "description": null,
+      "description": "Image courtesy Elaine Hughes (facebook)",
       "year": null,
-      "free": true,
+      "displayOrder": 6,
       "articles": []
     },
     "1043": {
@@ -837,7 +840,7 @@
       "collection": 7,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1044": {
@@ -846,7 +849,7 @@
       "collection": 7,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1045": {
@@ -855,7 +858,7 @@
       "collection": 7,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1046": {
@@ -864,7 +867,7 @@
       "collection": 7,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1047": {
@@ -873,7 +876,7 @@
       "collection": 7,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1048": {
@@ -882,7 +885,7 @@
       "collection": 7,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1049": {
@@ -891,7 +894,7 @@
       "collection": 8,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": true,
+      "displayOrder": 5,
       "articles": []
     },
     "1050": {
@@ -900,7 +903,7 @@
       "collection": 8,
       "description": "Image source unknown",
       "year": null,
-      "free": true,
+      "displayOrder": 1,
       "articles": []
     },
     "1051": {
@@ -909,7 +912,7 @@
       "collection": 8,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": true,
+      "displayOrder": 3,
       "articles": []
     },
     "1052": {
@@ -918,7 +921,7 @@
       "collection": 8,
       "description": "Image source unknown",
       "year": null,
-      "free": true,
+      "displayOrder": 4,
       "articles": [
         5036,
         5037,
@@ -931,7 +934,7 @@
       "collection": 8,
       "description": "Image courtesy Elaine Hughes (facebook)",
       "year": null,
-      "free": true,
+      "displayOrder": 2,
       "articles": []
     },
     "1054": {
@@ -940,7 +943,7 @@
       "collection": 8,
       "description": "Image courtesy Elaine Hughes (facebook)",
       "year": null,
-      "free": true,
+      "displayOrder": 6,
       "articles": []
     },
     "1055": {
@@ -949,25 +952,25 @@
       "collection": 9,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1056": {
       "id": 1056,
       "name": "Daisy Belle",
       "collection": 9,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1057": {
       "id": 1057,
       "name": "Dial-A-Date",
       "collection": 9,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1058": {
@@ -976,7 +979,7 @@
       "collection": 9,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1059": {
@@ -985,7 +988,7 @@
       "collection": 9,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1060": {
@@ -994,61 +997,61 @@
       "collection": 9,
       "description": "Image courtesy of invaluable.com",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1061": {
       "id": 1061,
       "name": "Tulip Girl",
       "collection": 10,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1062": {
       "id": 1062,
       "name": "Vondel Park",
       "collection": 10,
-      "description": "Image courtesy of Vectis Auctions",
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1063": {
       "id": 1063,
       "name": "Damsquare Idler",
       "collection": 10,
-      "description": "Image courtesy of Vectis Auctions",
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1064": {
       "id": 1064,
       "name": "Sparkling Diamonds",
       "collection": 10,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1065": {
       "id": 1065,
       "name": "Leidse Plein",
       "collection": 10,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1066": {
       "id": 1066,
       "name": "Kalverstraat",
       "collection": 10,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1067": {
@@ -1057,7 +1060,7 @@
       "collection": 20,
       "description": "Image courtesy of crazydaisydolls",
       "year": null,
-      "free": false,
+      "displayOrder": 3,
       "articles": []
     },
     "1068": {
@@ -1066,7 +1069,7 @@
       "collection": 20,
       "description": "Image courtesy of crazydaisydolls",
       "year": null,
-      "free": false,
+      "displayOrder": 2,
       "articles": []
     },
     "1069": {
@@ -1075,7 +1078,7 @@
       "collection": 20,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 1,
       "articles": []
     },
     "1070": {
@@ -1084,7 +1087,7 @@
       "collection": 20,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 5,
       "articles": []
     },
     "1071": {
@@ -1093,7 +1096,7 @@
       "collection": 20,
       "description": "Image courtesy of HobbyDB",
       "year": null,
-      "free": false,
+      "displayOrder": 4,
       "articles": [
         5001,
         5061,
@@ -1107,7 +1110,7 @@
       "collection": 20,
       "description": "Image courtesy of HobbyDB",
       "year": null,
-      "free": false,
+      "displayOrder": 6,
       "articles": []
     },
     "1073": {
@@ -1116,7 +1119,7 @@
       "collection": 25,
       "description": null,
       "year": null,
-      "free": true,
+      "displayOrder": "",
       "articles": [
         5034,
         5041,
@@ -1131,7 +1134,7 @@
       "collection": 26,
       "description": null,
       "year": null,
-      "free": true,
+      "displayOrder": "",
       "articles": [
         5049,
         5050
@@ -1143,7 +1146,7 @@
       "collection": 12,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 5,
       "articles": [
         5039,
         5040,
@@ -1157,7 +1160,7 @@
       "collection": 12,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 2,
       "articles": [
         5090,
         5002,
@@ -1171,7 +1174,7 @@
       "collection": 12,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 1,
       "articles": [
         5093,
         5011
@@ -1183,7 +1186,7 @@
       "collection": 12,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 3,
       "articles": []
     },
     "1079": {
@@ -1192,7 +1195,7 @@
       "collection": 12,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 6,
       "articles": []
     },
     "1080": {
@@ -1201,7 +1204,7 @@
       "collection": 12,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 4,
       "articles": []
     },
     "1083": {
@@ -1210,7 +1213,7 @@
       "collection": 21,
       "description": "Image courtesy of Lesley Carter (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": 2,
       "articles": [
         5048,
         5011
@@ -1222,7 +1225,7 @@
       "collection": 21,
       "description": "AKA Golden Cascade, Image courtesy of Elaine Hughes",
       "year": null,
-      "free": false,
+      "displayOrder": 5,
       "articles": []
     },
     "1085": {
@@ -1231,7 +1234,7 @@
       "collection": 21,
       "description": "Image courtesy of Elaine Hughes (Variations)",
       "year": null,
-      "free": false,
+      "displayOrder": 3,
       "articles": []
     },
     "1086": {
@@ -1240,7 +1243,7 @@
       "collection": 21,
       "description": "Image courtesy of Elaine Hughes (Variations)",
       "year": null,
-      "free": false,
+      "displayOrder": 6,
       "articles": []
     },
     "1087": {
@@ -1249,7 +1252,7 @@
       "collection": 21,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 4,
       "articles": []
     },
     "1088": {
@@ -1258,7 +1261,7 @@
       "collection": 21,
       "description": "Image courtesy of Elaine Hughes",
       "year": null,
-      "free": false,
+      "displayOrder": 1,
       "articles": []
     },
     "1089": {
@@ -1267,7 +1270,7 @@
       "collection": 18,
       "description": "Image courtesy of HobbyDB",
       "year": null,
-      "free": false,
+      "displayOrder": 5,
       "articles": [
         5052,
         5011
@@ -1279,7 +1282,7 @@
       "collection": 28,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": [
         5021,
         5053,
@@ -1293,7 +1296,7 @@
       "collection": 13,
       "description": "Image AI generated using Vectis Auctions and ebay bramble_cottage images",
       "year": null,
-      "free": false,
+      "displayOrder": 1,
       "articles": []
     },
     "1092": {
@@ -1302,16 +1305,16 @@
       "collection": 13,
       "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": 2,
       "articles": []
     },
     "1093": {
       "id": 1093,
       "name": "Swing Along",
       "collection": 13,
-      "description": null,
+      "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 4,
       "articles": []
     },
     "1094": {
@@ -1320,7 +1323,7 @@
       "collection": 13,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 3,
       "articles": [
         5087,
         5088,
@@ -1334,7 +1337,7 @@
       "collection": 13,
       "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": 5,
       "articles": []
     },
     "1096": {
@@ -1343,16 +1346,16 @@
       "collection": 13,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 6,
       "articles": []
     },
     "1097": {
       "id": 1097,
       "name": "Riviera 1",
       "collection": 14,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": [
         5011,
         5079,
@@ -1363,9 +1366,9 @@
       "id": 1098,
       "name": "Riviera 2",
       "collection": 14,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": [
         5081,
         5082,
@@ -1376,135 +1379,135 @@
       "id": 1099,
       "name": "Riviera 3",
       "collection": 14,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1100": {
       "id": 1100,
       "name": "Riviera 4",
       "collection": 14,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1101": {
       "id": 1101,
       "name": "Riviera 5",
       "collection": 14,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1102": {
       "id": 1102,
       "name": "Riviera 6",
       "collection": 14,
-      "description": null,
+      "description": "Image courtesy of crazydaisydolls",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1103": {
       "id": 1103,
       "name": "Boutique 1",
       "collection": 15,
-      "description": "Duck top & Jeans",
+      "description": "Image courtesy of Samantha Mantha (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1104": {
       "id": 1104,
       "name": "Boutique 2",
       "collection": 15,
-      "description": "Spotty Towel Robe",
+      "description": "Image courtesy of Samantha Mantha (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1105": {
       "id": 1105,
       "name": "Boutique 3",
       "collection": 15,
-      "description": "Bikini",
+      "description": "Image courtesy of Samantha Mantha (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1106": {
       "id": 1106,
       "name": "Boutique 4",
       "collection": 15,
-      "description": "Blue Long Dress with Lace",
+      "description": "Image courtesy of Samantha Mantha (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1107": {
       "id": 1107,
       "name": "Boutique 5",
       "collection": 15,
-      "description": "Tartan Short Dress",
+      "description": "Image courtesy of Samantha Mantha (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1108": {
       "id": 1108,
       "name": "Air Hostess",
       "collection": 16,
-      "description": null,
+      "description": "Image courtesy of Samantha Mantha (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1109": {
       "id": 1109,
       "name": "Secretary",
       "collection": 16,
-      "description": null,
+      "description": "Image courtesy of Samantha Mantha (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1110": {
       "id": 1110,
       "name": "Nurse",
       "collection": 16,
-      "description": "Image courtesy of Elaine Hughes",
+      "description": "Image courtesy of Samantha Mantha (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1111": {
       "id": 1111,
       "name": "Disco Fan 1",
       "collection": 17,
-      "description": "Orange Dress",
+      "description": "Image courtesy of Samantha Mantha (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1112": {
       "id": 1112,
       "name": "Disco Fan 2",
       "collection": 17,
-      "description": "Floral Trouser Suit",
+      "description": "Image courtesy of Samantha Mantha (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1113": {
       "id": 1113,
       "name": "Disco Fan 3",
       "collection": 17,
-      "description": "Stripy Trouser Suit",
+      "description": "Image courtesy of Samantha Mantha (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1114": {
@@ -1513,7 +1516,7 @@
       "collection": 18,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 2,
       "articles": []
     },
     "1115": {
@@ -1522,7 +1525,7 @@
       "collection": 18,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 6,
       "articles": []
     },
     "1116": {
@@ -1531,7 +1534,7 @@
       "collection": 18,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 4,
       "articles": []
     },
     "1117": {
@@ -1540,7 +1543,7 @@
       "collection": 18,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 1,
       "articles": []
     },
     "1118": {
@@ -1549,61 +1552,52 @@
       "collection": 18,
       "description": "Image courtesy of Vectis Auctions",
       "year": null,
-      "free": false,
+      "displayOrder": 3,
       "articles": []
     },
     "1119": {
       "id": 1119,
       "name": "Trouser Set 1",
       "collection": 19,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1120": {
       "id": 1120,
       "name": "Trouser Set 2",
       "collection": 19,
-      "description": null,
+      "description": "Image courtesy of https://jrd-cij.over-blog.com/",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1121": {
       "id": 1121,
       "name": "Trouser Set 3",
       "collection": 19,
-      "description": null,
+      "description": "Image courtesy of https://jrd-cij.over-blog.com/",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1122": {
       "id": 1122,
       "name": "Trouser Set 4",
       "collection": 19,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1123": {
       "id": 1123,
       "name": "Trouser Set 5",
       "collection": 19,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes",
       "year": null,
-      "free": false,
-      "articles": []
-    },
-    "1124": {
-      "id": 1124,
-      "name": "Trouser Set 6",
-      "collection": 19,
-      "description": null,
-      "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1125": {
@@ -1612,7 +1606,7 @@
       "collection": 23,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1126": {
@@ -1621,7 +1615,7 @@
       "collection": 23,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1127": {
@@ -1630,7 +1624,7 @@
       "collection": 23,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1128": {
@@ -1639,7 +1633,7 @@
       "collection": 23,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1129": {
@@ -1648,7 +1642,7 @@
       "collection": 23,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1130": {
@@ -1657,61 +1651,61 @@
       "collection": 23,
       "description": null,
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1131": {
       "id": 1131,
       "name": "Monte Carlo 1",
       "collection": 24,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1132": {
       "id": 1132,
       "name": "Monte Carlo 2",
       "collection": 24,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1133": {
       "id": 1133,
       "name": "Monte Carlo 3",
       "collection": 24,
-      "description": null,
+      "description": "Image courtesy of https://jrd-cij.over-blog.com/",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1134": {
       "id": 1134,
       "name": "Monte Carlo 4",
       "collection": 24,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1135": {
       "id": 1135,
       "name": "Monte Carlo 5",
       "collection": 24,
-      "description": null,
+      "description": "Image courtesy of crazy daisy dolls",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1136": {
       "id": 1136,
       "name": "Monte Carlo 6",
       "collection": 24,
-      "description": null,
+      "description": "Image courtesy of Elaine Hughes (facebook)",
       "year": null,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1137": {
@@ -1720,7 +1714,7 @@
       "collection": 27,
       "description": "Image courtesy of Vectis Auctions",
       "year": 1972,
-      "free": true,
+      "displayOrder": "",
       "articles": [
         5056,
         5057,
@@ -1733,7 +1727,7 @@
       "collection": 27,
       "description": "Image courtesy of Vectis Auctions",
       "year": 1973,
-      "free": true,
+      "displayOrder": "",
       "articles": [
         5058,
         5059,
@@ -1747,7 +1741,7 @@
       "collection": 27,
       "description": "Image courtesy of Vectis Auctions",
       "year": 1972,
-      "free": true,
+      "displayOrder": "",
       "articles": []
     },
     "1140": {
@@ -1756,7 +1750,7 @@
       "collection": 27,
       "description": "Image courtesy of Elaine Hughes",
       "year": 1976,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1141": {
@@ -1765,7 +1759,7 @@
       "collection": 27,
       "description": null,
       "year": 1973,
-      "free": true,
+      "displayOrder": "",
       "articles": []
     },
     "1142": {
@@ -1774,7 +1768,7 @@
       "collection": 27,
       "description": "Image courtesy of www.crazydaisydolls.com",
       "year": 1977,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1143": {
@@ -1783,7 +1777,7 @@
       "collection": 27,
       "description": null,
       "year": 1977,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1144": {
@@ -1792,7 +1786,7 @@
       "collection": 27,
       "description": "Image courtesy of Elaine Hughes",
       "year": 1976,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1145": {
@@ -1801,7 +1795,7 @@
       "collection": 27,
       "description": "Image courtesy of Vectis Auctions",
       "year": 1972,
-      "free": false,
+      "displayOrder": null,
       "articles": [
         5065,
         5002,
@@ -1814,7 +1808,7 @@
       "collection": 27,
       "description": "Image courtesy of Elaine Hughes",
       "year": 1977,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1147": {
@@ -1823,7 +1817,7 @@
       "collection": 27,
       "description": "Image courtesy of Elaine Hughes",
       "year": 1977,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1148": {
@@ -1832,7 +1826,7 @@
       "collection": 27,
       "description": "Image courtesy of Elaine Hughes",
       "year": 1977,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1149": {
@@ -1841,7 +1835,7 @@
       "collection": 27,
       "description": "Image courtesy of Elaine Hughes",
       "year": 1975,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     },
     "1150": {
@@ -1850,7 +1844,7 @@
       "collection": 27,
       "description": "Image courtesy of Elaine Hughes",
       "year": 1976,
-      "free": false,
+      "displayOrder": null,
       "articles": []
     }
   },
@@ -1990,7 +1984,8 @@
         1089,
         1097,
         1094,
-        1077
+        1077,
+        1026
       ]
     },
     "5012": {
@@ -2903,6 +2898,28 @@
       "outfits": [
         1077
       ]
+    },
+    "5094": {
+      "id": 5094,
+      "name": "Park Lane Dress",
+      "category": 1,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1026
+      ]
+    },
+    "5095": {
+      "id": 5095,
+      "name": "Red Shawl with white lace",
+      "category": 4,
+      "background": null,
+      "subtype": null,
+      "position": null,
+      "outfits": [
+        1026
+      ]
     }
   },
   "categories": {
@@ -2924,7 +2941,8 @@
         5052,
         5074,
         5090,
-        5093
+        5093,
+        5094
       ]
     },
     "2": {
@@ -2994,7 +3012,8 @@
         5077,
         5083,
         5089,
-        5091
+        5091,
+        5095
       ]
     },
     "5": {

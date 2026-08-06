@@ -144,10 +144,20 @@ function buildCollectionMenu()
     console.log("buildCollectionMenu");
     const wardrobeMenu = document.getElementById("wardrobeMenu");
 
+    // sort the collections according to year published
     const collections =
         Object.values(gameData.collections)
         .filter(collection => !collection.special)
         .sort((a,b)=>a.year-b.year);
+
+    // sort the outfits according to DisplayOrder
+    for (const collection of Object.values(collections))
+    {
+        collection.outfits.sort((a, b) =>
+        (gameData.outfits[a].displayOrder ?? 9999) -
+        (gameData.outfits[b].displayOrder ?? 9999)
+        );
+    }  
 
     for (const collection of collections)
     {
@@ -159,40 +169,38 @@ function buildCollectionMenu()
 
         collectionHeader.className = "menuHeader collectionHeader";
 
-collectionHeader.innerHTML =
-`
-    <div class="collectionLeft">
+        collectionHeader.innerHTML =
+                `
+                    <div class="collectionLeft">
 
-        <div class="collectionName">
-            <img class="flowerIcon"
-                 src="assets/flower.png">
+                        <div class="collectionName">
+                            <img class="flowerIcon"
+                                 src="assets/flower.png">
 
-            ${collection.name}
-        </div>
+                            ${collection.name}
+                        </div>
 
-        <div class="collectionYear">
-            ${collection.year !== null ? collection.year : ""}
-        </div>
+                        <div class="collectionYear">
+                            ${collection.year !== null ? collection.year : ""}
+                        </div>
 
-    </div>
+                    </div>
 
-    <button class="catalogueButton">
-        <img src="assets/flower.png" alt="">
-    </button>
-`;
+                    <button class="catalogueButton">
+                          🌸
+                    </button>
+                `;
 
-const flowerIcon =
-    collectionHeader.querySelector(".flowerIcon");
+        const flowerIcon = collectionHeader.querySelector(".flowerIcon");
 
-const catalogueButton =
-    collectionHeader.querySelector(".catalogueButton");
+        const catalogueButton = collectionHeader.querySelector(".catalogueButton");
 
-catalogueButton.addEventListener("click", (event) =>
-{
-    event.stopPropagation();
+        catalogueButton.addEventListener("click", (event) =>
+        {
+            event.stopPropagation();
 
-    showCollectionInfo(collection.id);
-});
+            showCollectionInfo(collection.id);
+        });
 
         const outfitList = document.createElement("div");
 
@@ -247,7 +255,7 @@ function buildWardrobeMenu()
 
 function buildOutfitList(collection, outfitList)
 {
-    console.log("buildOutfitList");
+    console.log("buildOutfitList for collection " + collection.id);
     for (const outfitId of collection.outfits)
     {
         const outfit = gameData.outfits[outfitId];
@@ -273,11 +281,9 @@ function buildOutfitList(collection, outfitList)
         const infoButton =
             document.createElement("button");
 
-        infoButton.className =
-            "infoButton";
+        infoButton.className = "infoButton";
 
-        infoButton.textContent =
-            "🌸";
+        infoButton.textContent = "🌸";
 
         infoButton.addEventListener("click", (event) =>
         {
@@ -388,6 +394,16 @@ document
             .getElementById("outfitInfoPopup")
             .style.display = "none";
     });
+
+/*document.getElementById("outfitInfoPopup").addEventListener("click", () =>
+{
+    document.getElementById("outfitInfoPopup").style.display = "none";
+});*/
+
+/*document.getElementById("catalogueCard").addEventListener("click", (event) =>
+{
+    event.stopPropagation();
+});*/
 
 function buildGarmentMenu()
 {
@@ -626,8 +642,10 @@ function showCollectionInfo(collectionId)
 
     loadCollectionImage(collection);
 
-    document.getElementById("outfitInfoPopup").style.display =
-        "block";
+    if (document.getElementById("outfitInfoPopup").style.display !== "block")
+    {
+        document.getElementById("outfitInfoPopup").style.display = "block";
+    }
 }
 
 function showOutfitInfo(outfitId)

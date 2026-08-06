@@ -133,7 +133,7 @@ def export_database(db_file, output_file):
             "collection": o["CollectionID"],
             "description": o.get("Description"),
             "year": o.get("Year"),
-            "free": bool(o.get("Free", 0)),
+            "displayOrder": o.get("DisplayOrder"),
             "articles": []
         }
 
